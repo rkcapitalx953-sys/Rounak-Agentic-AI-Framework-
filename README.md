@@ -1,8 +1,16 @@
 # Agentic AI Framework — Business & Finance Intelligence
 
+[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rkcapitalx953-sys/Rounak-Agentic-AI-Framework-/master?filepath=notebook.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rkcapitalx953-sys/Rounak-Agentic-AI-Framework-/blob/master/notebook.ipynb)
+
 An agentic pipeline that scans multiple business/finance news sources,
 synthesizes what's happening, assesses the impact on major industries, and
 recommends the top 3 sectors to focus on across short/mid/long-term horizons.
+
+**Try it live, no install:** click either badge above for a runnable copy of
+the notebook in your browser — Binder needs no account, Colab needs a free
+Google login. Judges (or anyone) can run the real pipeline against live news
+themselves, not just read a static report.
 
 Built for Internship Task 2. See `PRESENTATION_SCRIPT.md` for the class
 presentation script.

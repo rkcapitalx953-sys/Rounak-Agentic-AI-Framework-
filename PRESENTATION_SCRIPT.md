@@ -101,8 +101,14 @@ in *[brackets]* — don't read those aloud, they're stage directions for you.
 ## 6. Close (20s)
 
 > "So: four agents, one orchestrator, fully grounded output, and it never
-> crashes even in the worst case. That's the framework — happy to take
-> questions."
+> crashes even in the worst case. One more thing — you don't have to take my
+> word for any of this. There's a link in the repo README that opens a live,
+> runnable copy of this exact notebook in your browser, no install, no setup.
+> Anyone grading this can run the real pipeline themselves, against live
+> news, right now, not just read a report I generated earlier. That's the
+> framework — happy to take questions."
+
+*[If you have a couple of spare minutes and a friendly room, this is a strong closer: pull out your phone or point at the QR/link and let a judge click it live. Watching it work on a device you don't control is more convincing than any slide.]*
 
 ---
 
@@ -141,6 +147,11 @@ in *[brackets]* — don't read those aloud, they're stage directions for you.
 > free, fast, and no credit card needed, so the project is runnable by
 > anyone grading it without relying on my personal paid account.
 
+**"Can we try it ourselves?"**
+> Yes — that's the point of the Binder/Colab links in the README. Click
+> either badge and you get the real notebook running in your own browser
+> tab, no install, pulling live news right then. It's not a recording.
+
 ---
 
 ## Before you present — checklist
@@ -154,3 +165,8 @@ in *[brackets]* — don't read those aloud, they're stage directions for you.
       moment is the best part of the demo.
 - [ ] Know your fallback story cold — if asked "what happens without the
       API," you should be able to explain it in one sentence, not read it.
+- [ ] Click your own Binder link the night before — the first launch builds
+      a container and can take a few minutes; it's fast on every launch
+      after that. Don't let a judge hit that cold build time.
+- [ ] Have the repo link (or a QR code to it) ready to show/share so judges
+      can click the Binder/Colab badge themselves if they want to.
