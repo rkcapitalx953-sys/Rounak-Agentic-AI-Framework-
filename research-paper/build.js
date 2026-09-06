@@ -27,6 +27,8 @@ const MUTED = '52514e';
 const RULE = 'c9c8c4';
 const HEAD_FILL = 'e8eef5';
 const ZEBRA = 'f6f7f9';
+const KEY_FILL = 'eef3f9';
+const KEY_EDGE = 'c4d4e6';
 const BODY_FONT = 'Cambria';
 const SANS = 'Calibri';
 
@@ -84,6 +86,15 @@ function cell(text, o = {}) {
   });
 }
 
+/** Column alignment: prose columns read badly centred, so allow an override. */
+function colAlign(b, i) {
+  if (b.colAlign && b.colAlign[i]) {
+    return b.colAlign[i] === 'left' ? AlignmentType.LEFT
+      : b.colAlign[i] === 'right' ? AlignmentType.RIGHT : AlignmentType.CENTER;
+  }
+  return i === 0 ? AlignmentType.LEFT : AlignmentType.CENTER;
+}
+
 function buildTable(b) {
   const widths = b.widths;
   const rows = [
@@ -98,7 +109,7 @@ function buildTable(b) {
       children: r.map((c, i) => cell(c, {
         width: widths[i],
         fill: ri % 2 === 1 ? ZEBRA : undefined,
-        align: i === 0 ? AlignmentType.LEFT : AlignmentType.CENTER,
+        align: colAlign(b, i),
       })),
     })),
   ];
@@ -179,6 +190,42 @@ function render(blocks) {
             line: b.line || Math.max(300, Math.round((b.size || 22) * 15)),
           },
           children: [run(b.text, b)],
+        }));
+        break;
+
+      case 'keypoint':
+        out.push(new Paragraph({
+          alignment: AlignmentType.LEFT,
+          spacing: { before: 160, after: 260, line: 300 },
+          indent: { left: 170, right: 170 },
+          shading: { type: ShadingType.CLEAR, fill: KEY_FILL, color: 'auto' },
+          border: {
+            top: { style: BorderStyle.SINGLE, size: 2, color: KEY_EDGE, space: 8 },
+            bottom: { style: BorderStyle.SINGLE, size: 2, color: KEY_EDGE, space: 8 },
+            left: { style: BorderStyle.SINGLE, size: 18, color: NAVY, space: 10 },
+            right: { style: BorderStyle.SINGLE, size: 2, color: KEY_EDGE, space: 8 },
+          },
+          children: [
+            run(`${b.label || 'In one sentence'}:  `, { bold: true, size: 21, color: NAVY, font: SANS }),
+            run(b.text, { size: 21 }),
+          ],
+        }));
+        break;
+
+      case 'qa':
+        out.push(new Paragraph({
+          spacing: { before: 220, after: 80, line: 300 },
+          keepNext: true,
+          children: [
+            run('Q.  ', { bold: true, size: 22, color: NAVY, font: SANS }),
+            run(b.q, { bold: true, size: 22, color: NAVY, font: SANS }),
+          ],
+        }));
+        out.push(new Paragraph({
+          alignment: AlignmentType.JUSTIFIED,
+          spacing: { after: 120, line: 320 },
+          indent: { left: 300 },
+          children: [run(b.a)],
         }));
         break;
 
@@ -326,10 +373,11 @@ function render(blocks) {
 }
 
 // ------------------------------------------------------------------- build --
-const doc = new Document({
+function makeDocument({ blocks, title, description, headerText }) {
+  return new Document({
   creator: 'Rounak Archana Kameswaran',
-  title: 'Impact of UPI-Based Digital Payments on the Velocity of Money and Economic Activity in India',
-  description: 'CBSE Class XII Economics research project, session 2026-27',
+  title,
+  description,
   styles: {
     default: {
       document: { run: { font: BODY_FONT, size: 22, color: INK } },
@@ -370,7 +418,7 @@ const doc = new Document({
           alignment: AlignmentType.RIGHT,
           spacing: { after: 60 },
           border: { bottom: { style: BorderStyle.SINGLE, size: 4, color: RULE, space: 4 } },
-          children: [run('UPI, the Velocity of Money and Economic Activity in India',
+          children: [run(headerText,
             { size: 17, italic: true, color: MUTED, font: SANS })],
         })],
       }),
@@ -386,12 +434,33 @@ const doc = new Document({
         })],
       }),
     },
-    children: render(ALL),
+    children: render(blocks),
   }],
-});
+  });
+}
 
-Packer.toBuffer(doc).then((buf) => {
-  const out = path.join(DIR, 'UPI_Research_Paper.docx');
+const TARGETS = {
+  paper: {
+    blocks: ALL,
+    file: 'UPI_Research_Paper.docx',
+    title: 'Impact of UPI-Based Digital Payments on the Velocity of Money and Economic Activity in India',
+    description: 'CBSE Class XII Economics research project, session 2026-27',
+    headerText: 'UPI, the Velocity of Money and Economic Activity in India',
+  },
+  viva: {
+    get blocks() { return require('./viva').VIVA; },
+    file: 'UPI_Viva_Cheat_Sheet.docx',
+    title: 'Viva Cheat Sheet — UPI, the Velocity of Money and Economic Activity in India',
+    description: 'Preparation handbook for the project viva',
+    headerText: 'Viva Cheat Sheet — UPI and the Velocity of Money',
+  },
+};
+
+const target = TARGETS[process.argv[2] || 'paper'];
+if (!target) throw new Error(`unknown target: ${process.argv[2]}`);
+
+Packer.toBuffer(makeDocument(target)).then((buf) => {
+  const out = path.join(DIR, target.file);
   fs.writeFileSync(out, buf);
   console.log(`wrote ${out}  (${(buf.length / 1024).toFixed(0)} KB)`);
 });

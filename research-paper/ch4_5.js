@@ -1,4 +1,6 @@
-/** Chapter 4 (Findings & Suggestions), Chapter 5 (Conclusion), Bibliography. */
+/** Chapter 4 (Findings), Chapter 5 (Conclusion), Glossary, Bibliography. */
+
+const { GLOSSARY } = require('./glossary');
 
 const CH4_5 = [
   // ============================================ 4. FINDINGS & SUGGESTIONS ===
@@ -209,6 +211,8 @@ const CH4_5 = [
       'to serve.',
   },
   { t: 'pb' },
+
+  ...GLOSSARY,
 
   // ====================================================== BIBLIOGRAPHY ======
   { t: 'h1', text: 'Bibliography' },

@@ -496,6 +496,9 @@ const CH3 = [
       'descriptive form; its velocity implication is tested in Data Set 4.',
   },
 
+  { t: 'keypoint', text:
+      'UPI grew from 2 crore transactions to 24,162 crore in ten years, and because volume grew faster than value in every year from FY 2021-22, the typical payment was getting smaller even as the total kept rising.' },
+
   // ------------------------------------------------------------- DATA SET 2
   { t: 'h3', text: 'Data Set 2  ·  The average value of a single UPI transaction' },
   {
@@ -576,6 +579,9 @@ const CH3 = [
       'Hypothesis H2 is supported.',
   },
 
+  { t: 'keypoint', text:
+      'The average UPI payment fell from ₹1,838 to ₹1,300 while volume rose more than ten-fold, which is the signature of a system adding small everyday payments rather than merely digitising ones that already existed.' },
+
   // ------------------------------------------------------------- DATA SET 3
   { t: 'h3', text: 'Data Set 3  ·  UPI within India’s wider digital payment system' },
   {
@@ -635,6 +641,9 @@ const CH3 = [
       'means that changes in retail payment behaviour in India during the period may reasonably ' +
       'be attributed to UPI, since alternatives are too small a share to drive the aggregate.',
   },
+
+  { t: 'keypoint', text:
+      'UPI carries 81 per cent of India’s retail digital transactions, so changes in retail payment behaviour during this period can reasonably be attributed to it.' },
 
   // ------------------------------------------------------------- DATA SET 4
   { t: 'h3', text: 'Data Set 4  ·  UPI turnover relative to nominal GDP — a velocity proxy' },
@@ -711,6 +720,9 @@ const CH3 = [
       'published aggregates can establish.',
   },
 
+  { t: 'keypoint', text:
+      'The value settled over UPI rose from 0.52 to 0.91 times India’s GDP in three years — the level of that ratio is not meaningful, but its rapid rise is, and it points to a higher transactions velocity of money.' },
+
   // ------------------------------------------------------------- DATA SET 5
   { t: 'h3', text: 'Data Set 5  ·  Digital payments around demonetisation' },
   {
@@ -770,6 +782,9 @@ const CH3 = [
       'removed an adoption barrier — the effort of learning something new — than as having ' +
       'changed the underlying economics of paying.',
   },
+
+  { t: 'keypoint', text:
+      'Demonetisation produced a 56 per cent jump in digital payments, but about 99 per cent of the currency came back, so it accelerated UPI’s adoption without causing its sustained growth.' },
 
   // ------------------------------------------------------------- DATA SET 6
   { t: 'h3', text: 'Data Set 6  ·  UPI growth before, during and after COVID-19' },
@@ -832,6 +847,9 @@ const CH3 = [
       'enough for digital payment to become habitual. Habits, unlike compliance, survive the ' +
       'removal of the constraint that formed them.',
   },
+
+  { t: 'keypoint', text:
+      'UPI grew faster after the pandemic (106 per cent) than during its worst year (78 per cent), which shows the change had become a habit rather than reverting once cash was available again.' },
 
   // ------------------------------------------------------------- DATA SET 7
   { t: 'h3', text: 'Data Set 7  ·  Financial inclusion, digitalisation and global standing' },
@@ -898,6 +916,9 @@ const CH3 = [
       'alone.',
   },
 
+  { t: 'keypoint', text:
+      'The RBI’s Financial Inclusion Index rose from 64.2 to 67.0 with usage improving fastest — the sub-index that matters, because access had already been achieved and dormancy was the real problem.' },
+
   // ------------------------------------------------------------- DATA SET 8
   { t: 'h3', text: 'Data Set 8  ·  Internet penetration and the rural–urban divide' },
   {
@@ -960,6 +981,9 @@ const CH3 = [
       'further into rural India must therefore address the telecommunications constraint, since ' +
       'payment-system measures alone cannot overcome it.',
   },
+  { t: 'keypoint', text:
+      'Rural internet penetration is 46.73 per 100 people against an urban 113.83, so what limits UPI’s reach in rural India is connectivity, not merchant acceptance.' },
+
   { t: 'pb' },
 ];
 

@@ -1,13 +1,19 @@
 # UPI, the Velocity of Money and Economic Activity in India
 
-A CBSE Class XII Economics research project (48 pages, A4), written from the
+A CBSE Class XII Economics research project (51 pages, A4), written from the
 synopsis of the same title.
 
 | File | What it is |
 |---|---|
 | `UPI_Research_Paper.docx` | The paper. This is the deliverable. |
 | `UPI_Research_Paper.pdf` | Same document, rendered — for reading or printing without Word. |
+| `UPI_Viva_Cheat_Sheet.docx` | 15-page viva preparation handbook — opening answer, numbers to memorise, ~40 questions with model answers, the five hard questions, and traps to avoid. |
+| `UPI_Viva_Cheat_Sheet.pdf` | Same, rendered. |
 | `figures/` | The ten charts, as PNGs at 220 dpi. |
+
+The paper carries its own viva support: a **glossary** defining every technical
+term (p.46), and an **"In one sentence"** call-out closing each of the eight data
+sets, so any exhibit has a ready one-line answer.
 
 ## Rebuilding
 
@@ -19,6 +25,8 @@ Sources are split so prose can be edited without touching layout code:
 | `ch1_2.js` | Chapter 1 (Introduction) and Chapter 2 (Design of Study) |
 | `ch3.js` | Chapter 3 (Review of Literature) and the eight data sets |
 | `ch4_5.js` | Chapter 4 (Findings), Chapter 5 (Conclusion), Bibliography |
+| `glossary.js` | Glossary of key terms |
+| `viva.js` | The viva cheat sheet |
 | `build.js` | Renders the content blocks into the `.docx` |
 | `make_figures.py` | Generates `figures/*.png` |
 | `paginate.py` | Resolves the page numbers printed in the table of contents |
@@ -31,7 +39,12 @@ python3 make_figures.py         # regenerate the charts
 node build.js                   # pass 1
 python3 paginate.py             # find each heading's page number
 node build.js                   # pass 2, with the contents page filled in
+node build.js viva              # the cheat sheet
 ```
+
+The cheat sheet cites page numbers from the paper. If you edit the paper enough
+to shift its pagination, re-check the `p.NN` references in `viva.js` against the
+rebuilt PDF.
 
 The table of contents is a static, page-numbered list rather than a Word TOC
 field, so it displays correctly without anyone having to press "update fields",
