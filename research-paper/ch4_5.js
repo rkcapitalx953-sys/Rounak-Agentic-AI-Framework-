@@ -1,15 +1,15 @@
-/** Chapter 4 (Findings), Chapter 5 (Conclusion), Glossary, Bibliography. */
+/** Chapter 5 (Findings), Chapter 6 (Conclusion), Glossary, Bibliography. */
 
 const { GLOSSARY } = require('./glossary');
 
 const CH4_5 = [
-  // ============================================ 4. FINDINGS & SUGGESTIONS ===
-  { t: 'h1', text: '4.  Findings and Suggestions' },
+  // ============================================ 5. FINDINGS & SUGGESTIONS ===
+  { t: 'h1', text: '5.  Findings and Suggestions' },
 
-  { t: 'h2', text: '4.1  Findings' },
+  { t: 'h2', text: '5.1  Findings' },
   {
     t: 'p', text:
-      'Seven findings emerge from the analysis in Chapter 3. Each is stated with the evidence ' +
+      'Seven findings emerge from the analysis in Chapter 4. Each is stated with the evidence ' +
       'that supports it and with the qualification that evidence requires.',
   },
   {
@@ -101,7 +101,7 @@ const CH4_5 = [
       'restraint that cash imposed incidentally.',
   },
 
-  { t: 'h2', text: '4.2  Suggestions' },
+  { t: 'h2', text: '5.2  Suggestions' },
   {
     t: 'p', text:
       'Six suggestions follow from the findings. They are directed at the constraints the ' +
@@ -140,8 +140,8 @@ const CH4_5 = [
   },
   { t: 'pb' },
 
-  // ======================================================= 5. CONCLUSION ====
-  { t: 'h1', text: '5.  Conclusion' },
+  // ======================================================= 6. CONCLUSION ====
+  { t: 'h1', text: '6.  Conclusion' },
   {
     t: 'p', text:
       'This project set out to ask whether the growth of UPI has changed the speed at which ' +
@@ -189,7 +189,7 @@ const CH4_5 = [
       'The efficiency case is therefore genuine. Money that need not be withdrawn, carried and ' +
       're-deposited is money available for use; a merchant paid instantly restocks sooner; a ' +
       'transaction that leaves a record can become the basis of credit. These are real gains ' +
-      'and they are consistent with everything in Chapter 3.',
+      'and they are consistent with everything in Chapter 4.',
   },
   {
     t: 'p', text:

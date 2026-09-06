@@ -14,9 +14,10 @@ const {
 const { FRONT } = require('./content');
 const { CH1_2 } = require('./ch1_2');
 const { CH3 } = require('./ch3');
+const { CH4_ANALYSIS } = require('./ch4_analysis');
 const { CH4_5 } = require('./ch4_5');
 
-const ALL = [...FRONT, ...CH1_2, ...CH3, ...CH4_5];
+const ALL = [...FRONT, ...CH1_2, ...CH3, ...CH4_ANALYSIS, ...CH4_5];
 const DIR = __dirname;
 const FIGDIR = path.join(DIR, 'figures');
 
@@ -129,7 +130,7 @@ function buildTable(b) {
 /** Headings that belong in the table of contents, in document order. */
 function tocEntries(blocks) {
   return blocks
-    .filter((x) => (x.t === 'h1' || x.t === 'h2') && x.text !== 'Table of Contents')
+    .filter((x) => (x.t === 'h1' || x.t === 'h2') && x.text !== 'Index')
     .map((x) => ({ text: x.text, level: x.t === 'h1' ? 0 : 1 }));
 }
 

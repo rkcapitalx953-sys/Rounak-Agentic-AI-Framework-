@@ -1,7 +1,12 @@
 # UPI, the Velocity of Money and Economic Activity in India
 
-A CBSE Class XII Economics research project (51 pages, A4), written from the
+A CBSE Class XII Economics research project (48 pages, A4), written from the
 synopsis of the same title.
+
+The document opens on the **Index** — there is no title page, certificate,
+acknowledgement or declaration. Six chapters: Introduction, Design of Study,
+Review of Literature, **Analysis of Data** (the longest, 17 pages), Findings &
+Suggestions, and Conclusion, followed by the Glossary and Bibliography.
 
 | File | What it is |
 |---|---|
@@ -12,7 +17,7 @@ synopsis of the same title.
 | `figures/` | The ten charts, as PNGs at 220 dpi. |
 
 The paper carries its own viva support: a **glossary** defining every technical
-term (p.46), and an **"In one sentence"** call-out closing each of the eight data
+term (p.43), and an **"In one sentence"** call-out closing each of the eight data
 sets, so any exhibit has a ready one-line answer.
 
 ## Rebuilding
@@ -21,15 +26,16 @@ Sources are split so prose can be edited without touching layout code:
 
 | File | Contains |
 |---|---|
-| `content.js` | Title page, certificate, acknowledgement, declaration, contents, list of exhibits |
+| `content.js` | Index and list of exhibits |
 | `ch1_2.js` | Chapter 1 (Introduction) and Chapter 2 (Design of Study) |
-| `ch3.js` | Chapter 3 (Review of Literature) and the eight data sets |
-| `ch4_5.js` | Chapter 4 (Findings), Chapter 5 (Conclusion), Bibliography |
+| `ch3.js` | Chapter 3 (Review of Literature) |
+| `ch4_analysis.js` | Chapter 4 (Analysis of Data) — the eight data sets |
+| `ch4_5.js` | Chapter 5 (Findings), Chapter 6 (Conclusion), Bibliography |
 | `glossary.js` | Glossary of key terms |
 | `viva.js` | The viva cheat sheet |
 | `build.js` | Renders the content blocks into the `.docx` |
 | `make_figures.py` | Generates `figures/*.png` |
-| `paginate.py` | Resolves the page numbers printed in the table of contents |
+| `paginate.py` | Resolves the page numbers printed in the Index |
 
 ```bash
 pip install matplotlib          # figures
@@ -46,7 +52,7 @@ The cheat sheet cites page numbers from the paper. If you edit the paper enough
 to shift its pagination, re-check the `p.NN` references in `viva.js` against the
 rebuilt PDF.
 
-The table of contents is a static, page-numbered list rather than a Word TOC
+The Index is a static, page-numbered list rather than a Word TOC
 field, so it displays correctly without anyone having to press "update fields",
 and it survives conversion to PDF and Google Docs.
 

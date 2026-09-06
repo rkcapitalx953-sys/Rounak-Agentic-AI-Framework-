@@ -33,11 +33,15 @@ def headings():
     js = subprocess.run(
         ["node", "-e",
          "const a=[...require('./content').FRONT,...require('./ch1_2').CH1_2,"
-         "...require('./ch3').CH3,...require('./ch4_5').CH4_5];"
+         "...require('./ch3').CH3,...require('./ch4_analysis').CH4_ANALYSIS,"
+         "...require('./ch4_5').CH4_5];"
          "console.log(JSON.stringify(a.filter(x=>x.t==='h1'||x.t==='h2')"
          ".map(x=>({text:x.text,level:x.t==='h1'?0:1}))))"],
         cwd=DIR, check=True, capture_output=True, text=True).stdout
-    return json.loads(js)
+    # "Index" is a substring of "Financial Inclusion Index" and similar
+    # headings later in the document, so searching for it drags the cursor
+    # forward and breaks every lookup after it. It needs no page number anyway.
+    return [h for h in json.loads(js) if h["text"] != "Index"]
 
 def main():
     pdf = to_pdf()
@@ -68,12 +72,12 @@ def main():
         else:
             missed.append(h["text"])
 
-    mapping.pop("Table of Contents", None)
-    missed = [m for m in missed if m != "Table of Contents"]
+    mapping.pop("Index", None)
+    missed = [m for m in missed if m != "Index"]
     with open(os.path.join(DIR, "toc-pages.json"), "w", encoding="utf-8") as f:
         json.dump(mapping, f, ensure_ascii=False, indent=1)
 
-    print(f"{npages} pages; located {len(mapping)}/{len(hs) - 1} headings")
+    print(f"{npages} pages; located {len(mapping)}/{len(hs)} headings")
     if missed:
         print("NOT FOUND:", *missed, sep="\n  ")
         sys.exit(1)

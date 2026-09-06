@@ -150,7 +150,7 @@ const CH1_2 = [
       'moves slowly. Transactions velocity relates the total value of all payments — including ' +
       'the many transfers that are not themselves purchases of newly produced output — to the ' +
       'money stock, and can move a great deal faster. Payment systems act on transactions ' +
-      'velocity directly and on income velocity only indirectly. Chapter 3 returns to this ' +
+      'velocity directly and on income velocity only indirectly. Section 3.4 returns to this ' +
       'distinction at length, because conflating the two is the commonest error in popular ' +
       'writing on the subject.',
   },
@@ -237,7 +237,7 @@ const CH1_2 = [
       'if what it does is relocate transactions that would have occurred in cash. Establishing ' +
       'whether something more than relocation has occurred requires evidence of a different ' +
       'kind — evidence about transaction sizes, about who is transacting, and about what ' +
-      'merchants report. That evidence is assembled in Chapter 3.',
+      'merchants report. That evidence is assembled in Chapter 4.',
   },
   { t: 'pb' },
 
@@ -265,7 +265,7 @@ const CH1_2 = [
   {
     t: 'p', text:
       'The objectives above are translated into three testable propositions. They are stated ' +
-      'here so that the reader may judge, at the end of Chapter 3, whether the evidence ' +
+      'here so that the reader may judge, at the end of Chapter 4, whether the evidence ' +
       'supports them.',
   },
   {

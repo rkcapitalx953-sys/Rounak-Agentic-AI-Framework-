@@ -92,14 +92,14 @@ const VIVA = [
     colAlign: ['left', 'left', 'center'],
     head: ['What', 'Number', 'Page'],
     rows: [
-      ['UPI volume, FY 2016-17 → FY 2025-26', '2 crore → 24,162 crore', '24'],
-      ['UPI value, FY 2016-17 → FY 2025-26', '₹0.07 → ₹314 lakh crore', '24'],
-      ['Average payment, peak → latest', '₹1,838 (FY 2020-21) → ₹1,300', '26'],
-      ['UPI value ÷ nominal GDP', '0.52× → 0.91× in three years', '30'],
-      ['UPI share of retail digital volume', '81% (FY 2024-25)', '28'],
-      ['India’s share of world real-time payments', 'about 49% (2024)', '36'],
-      ['Small merchants reporting higher sales', '57%', '19'],
-      ['Rural vs urban internet per 100 people', '46.73 vs 113.83', '38'],
+      ['UPI volume, FY 2016-17 → FY 2025-26', '2 crore → 24,162 crore', '21'],
+      ['UPI value, FY 2016-17 → FY 2025-26', '₹0.07 → ₹314 lakh crore', '21'],
+      ['Average payment, peak → latest', '₹1,838 (FY 2020-21) → ₹1,300', '23'],
+      ['UPI value ÷ nominal GDP', '0.52× → 0.91× in three years', '27'],
+      ['UPI share of retail digital volume', '81% (FY 2024-25)', '25'],
+      ['India’s share of world real-time payments', 'about 49% (2024)', '33'],
+      ['Small merchants reporting higher sales', '57%', '15'],
+      ['Rural vs urban internet per 100 people', '46.73 vs 113.83', '35'],
     ],
   },
 
@@ -140,14 +140,14 @@ const VIVA = [
     colAlign: ['left', 'left'],
     head: ['Data set', 'What it shows'],
     rows: [
-      ['1  ·  p.24', 'UPI grew about 12,000-fold in volume, and volume grew faster than value every year from FY 2021-22 — so payments were getting smaller.'],
-      ['2  ·  p.26', 'The average payment fell from ₹1,838 to ₹1,300 while volume rose ten-fold. This is my most important finding.'],
-      ['3  ·  p.28', 'UPI is 81% of retail digital transactions, so retail payment trends in this period can fairly be attributed to it.'],
-      ['4  ·  p.30', 'UPI value went from 0.52 to 0.91 times GDP. The level means little; the rise means a lot.'],
-      ['5  ·  p.32', 'Demonetisation gave a 56% jump, but 99% of the cash came back — it accelerated adoption without causing it.'],
-      ['6  ·  p.34', 'COVID growth was 78% then 106% — faster after the shock than during it, so the habit stuck.'],
-      ['7  ·  p.36', 'Financial Inclusion Index 64.2 → 67.0, with usage rising fastest, which is the sub-index that matters.'],
-      ['8  ·  p.38', 'Rural internet is 46.73 per 100 against urban 113.83 — the limit is connectivity, not acceptance.'],
+      ['1  ·  p.21', 'UPI grew about 12,000-fold in volume, and volume grew faster than value every year from FY 2021-22 — so payments were getting smaller.'],
+      ['2  ·  p.23', 'The average payment fell from ₹1,838 to ₹1,300 while volume rose ten-fold. This is my most important finding.'],
+      ['3  ·  p.25', 'UPI is 81% of retail digital transactions, so retail payment trends in this period can fairly be attributed to it.'],
+      ['4  ·  p.27', 'UPI value went from 0.52 to 0.91 times GDP. The level means little; the rise means a lot.'],
+      ['5  ·  p.29', 'Demonetisation gave a 56% jump, but 99% of the cash came back — it accelerated adoption without causing it.'],
+      ['6  ·  p.31', 'COVID growth was 78% then 106% — faster after the shock than during it, so the habit stuck.'],
+      ['7  ·  p.33', 'Financial Inclusion Index 64.2 → 67.0, with usage rising fastest, which is the sub-index that matters.'],
+      ['8  ·  p.35', 'Rural internet is 46.73 per 100 against urban 113.83 — the limit is connectivity, not acceptance.'],
     ],
   },
   { t: 'pb' },
@@ -275,7 +275,7 @@ const VIVA = [
   {
     t: 'qa',
     q: 'What are the limitations of your study?',
-    a: 'Seven are listed on page 14. The three that matter most: it is all secondary data; ' +
+    a: 'Seven are listed on page 11. The three that matter most: it is all secondary data; ' +
        'correlation is not causation, since smartphones and incomes rose alongside UPI; and ' +
        'velocity cannot be measured directly, so Table 4 is a proxy rather than a measurement.',
   },
@@ -509,7 +509,7 @@ const VIVA = [
       'Reason out loud from the identity. Almost every velocity question can be worked from ' +
       'M × V = P × T. Say what happens to each term and why. Visible reasoning scores better than ' +
       'a remembered fact.',
-      'Point to the paper. "That is in my limitations on page 14" or "Data Set 8 covers that" is ' +
+      'Point to the paper. "That is in my limitations on page 11" or "Data Set 8 covers that" is ' +
       'a legitimate answer, and it shows you know your own structure.',
     ],
   },
