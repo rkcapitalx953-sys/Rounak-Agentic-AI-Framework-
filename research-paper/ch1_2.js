@@ -7,237 +7,227 @@ const CH1_2 = [
   { t: 'h2', text: '1.1  The meaning of digital payments' },
   {
     t: 'p', text:
-      'A payment is the transfer of purchasing power from one person to another in settlement ' +
-      'of an obligation. For most of economic history that transfer required a physical object ' +
-      'to change hands — a coin, a note, a cheque. A digital payment removes the object. The ' +
-      'money moves as an instruction: a message passes between two accounts held with regulated ' +
-      'institutions, the payer’s balance is debited, the payee’s is credited, and no currency ' +
-      'is physically handled at any point.',
+      'A payment means handing over money to settle what you owe. For most of history this ' +
+      'needed a physical object to change hands: a coin, a note or a cheque. A digital payment ' +
+      'removes the object. The money moves as a message instead. That message passes between two ' +
+      'bank accounts, the payer’s balance falls, the payee’s balance rises, and no cash is ' +
+      'touched at any stage.',
   },
   {
     t: 'p', text:
-      'The distinction matters more than it first appears. Cash settles instantly but travels ' +
-      'slowly: it must be withdrawn, carried, counted and re-deposited. A digital instruction ' +
-      'travels at the speed of a telecommunications network and settles in seconds. What ' +
-      'changes, therefore, is not only the convenience of paying but the sheer number of times ' +
-      'a given stock of money can be used within a given period. That last observation is the ' +
-      'thread this project follows from beginning to end.',
+      'This difference matters more than it looks. Cash settles at once, but it moves slowly. It ' +
+      'has to be withdrawn, carried, counted and deposited again. A digital instruction travels ' +
+      'at the speed of a phone network and settles in seconds. So what changes is not just how ' +
+      'easy it is to pay. What also changes is how many times the same money can be used in a ' +
+      'year. That idea is the thread this project follows from start to finish.',
   },
 
   { t: 'h2', text: '1.2  The Unified Payments Interface' },
   {
     t: 'p', text:
-      'The Unified Payments Interface, universally known as UPI, was launched in India in 2016. ' +
-      'It is best described not as an application but as a standard — a common set of rules that ' +
-      'allows any bank account to be addressed by any application through a single virtual ' +
-      'payment address. A user of one provider can pay a merchant who banks elsewhere and who ' +
-      'uses an entirely different application, instantly, at no cost to either party, at any ' +
-      'hour of any day.',
+      'The Unified Payments Interface, known as UPI, was launched in India in 2016. It is not an ' +
+      'app. It is a standard, which means a common set of rules. Those rules let any bank account ' +
+      'be paid from any app, using a single address instead of an account number. A user of one ' +
+      'app can pay a shopkeeper who banks elsewhere and uses a completely different app. The ' +
+      'payment is instant, free for both sides, and works at any hour.',
   },
   {
     t: 'p', text:
-      'Three features explain why UPI succeeded where earlier systems did not. First, it is ' +
-      'interoperable: the payer and payee need not share a provider. Second, it is available ' +
-      'without interruption, in contrast to the batch-processed systems it displaced. Third, ' +
-      'for the ordinary person-to-person or small merchant transaction it is free — a design ' +
-      'choice the Government has reinforced by keeping the Merchant Discount Rate at zero for ' +
-      'small-merchant UPI transactions up to ₹2,000 and paying an incentive of 0.15 per cent of ' +
-      'transaction value in their place [14].',
+      'Three features explain why UPI worked where earlier systems did not. First, it is ' +
+      'interoperable, which means the payer and the payee do not have to use the same provider. ' +
+      'Second, it never shuts down, unlike the older systems it replaced. Third, it is free for ' +
+      'ordinary payments. The Government has supported this by keeping the Merchant Discount Rate ' +
+      'at zero for small-merchant UPI payments up to ₹2,000. In place of that fee it pays the ' +
+      'banks an incentive of 0.15 per cent of the transaction value [14].',
   },
   {
     t: 'p', text:
-      'The International Monetary Fund, in a June 2025 study of retail payment interoperability, ' +
-      'identified precisely this architecture as the source of UPI’s adoption. Interoperability, ' +
-      'the Fund argued, increases the user’s freedom to choose an application; many users join ' +
-      'through a trusted brand and later switch to a better one, and the standing threat of that ' +
-      'switch forces incumbents to improve. The result was a market that expanded to more than ' +
-      '200 applications rather than consolidating around the first mover [18].',
+      'The International Monetary Fund studied this design in June 2025 and said it was the main ' +
+      'reason UPI spread so fast. Interoperability gives users the freedom to choose their app. ' +
+      'Many people join through a brand they already trust, then move to a better app later. ' +
+      'Because users can leave at any time, every provider has to keep improving. The result was ' +
+      'a market with more than 200 apps, rather than one company taking everything [18].',
   },
 
   { t: 'h2', text: '1.3  The growth of digital transactions in India' },
   {
     t: 'p', text:
-      'The scale of what followed is difficult to convey without figures. In FY 2016-17, its ' +
-      'first full year, UPI processed about 2 crore transactions worth ₹0.07 lakh crore. In ' +
-      'FY 2025-26 it processed over 24,162 crore transactions worth approximately ₹314 lakh ' +
-      'crore — a roughly twelve-thousand-fold increase in volume and a more than four-thousand-' +
-      'fold increase in value over ten years [2].',
+      'The scale of the change is hard to describe without figures. In FY 2016-17, its first full ' +
+      'year, UPI handled about 2 crore transactions worth ₹0.07 lakh crore. In FY 2025-26 it ' +
+      'handled over 24,162 crore transactions worth about ₹314 lakh crore. That is roughly a ' +
+      'twelve-thousand-fold rise in the number of payments and a more than four-thousand-fold ' +
+      'rise in their value, in ten years [2].',
   },
   {
     t: 'p', text:
-      'Nor is this the growth of a niche instrument. UPI accounted for 81 per cent of all retail ' +
-      'digital payment transactions in India in FY 2024-25 [14], and the IMF records it as the ' +
-      'world’s largest retail fast payment system by transaction volume, handling close to ' +
-      '49 per cent of global real-time payment transactions [3], [18]. As of June 2026, 55.49 ' +
-      'crore users had been onboarded [16], and by FY 2025-26 the number of banks live on the ' +
-      'platform had risen from 44 to 703 [2].',
+      'This is not a small or specialist service. UPI handled 81 per cent of all retail digital ' +
+      'payments in India in FY 2024-25 [14]. The IMF calls it the largest retail fast payment ' +
+      'system in the world by number of transactions. It carries close to 49 per cent of all ' +
+      'real-time payments made anywhere on earth [3], [18]. By June 2026, 55.49 crore users had ' +
+      'joined [16]. The number of banks on the platform rose from 44 to 703 by FY 2025-26 [2].',
   },
 
   { t: 'h2', text: '1.4  The role of the National Payments Corporation of India' },
   {
     t: 'p', text:
-      'None of this was left to the market to organise. UPI was built and is operated by the ' +
-      'National Payments Corporation of India (NPCI), an umbrella organisation for retail ' +
-      'payments established under the guidance of the Reserve Bank of India and the Indian ' +
-      'Banks’ Association. NPCI is constituted as a not-for-profit company, and that legal form ' +
-      'is central to the economics of the system: because the operator is not obliged to ' +
-      'maximise a return on the switch itself, transactions can be routed at or near cost.',
+      'None of this was left to the market to arrange. UPI was built and is run by the National ' +
+      'Payments Corporation of India (NPCI). NPCI is the umbrella body for retail payments, set ' +
+      'up under the guidance of the Reserve Bank of India and the Indian Banks’ Association. It ' +
+      'is registered as a not-for-profit company, and that matters for the economics. Because ' +
+      'NPCI does not have to earn a profit on the system itself, payments can be carried at or ' +
+      'near cost.',
   },
   {
     t: 'p', text:
-      'NPCI writes the technical standard, operates the central switch through which every ' +
-      'transaction is routed, settles positions between member banks, sets and revises ' +
-      'transaction limits, and runs the fraud-monitoring systems that screen traffic in real ' +
-      'time. Through its subsidiary NPCI International Payments Limited it has also carried the ' +
-      'standard abroad; UPI is now live in eleven foreign jurisdictions for acceptance or ' +
-      'cross-border remittances, among them the United Arab Emirates, Singapore, Bhutan, Nepal, ' +
-      'Sri Lanka, France, Mauritius and Qatar [17].',
+      'NPCI does five main jobs. It writes the technical rules. It runs the central switch that ' +
+      'every payment passes through. It settles the amounts owed between member banks. It sets ' +
+      'and revises transaction limits. And it runs the systems that watch for fraud as payments ' +
+      'happen. Through its subsidiary NPCI International Payments Limited, it has also taken UPI ' +
+      'abroad. UPI now works in eleven foreign countries for payments or money transfers, ' +
+      'including the United Arab Emirates, Singapore, Bhutan, Nepal, Sri Lanka, France, Mauritius ' +
+      'and Qatar [17].',
   },
   {
     t: 'p', text:
-      'The public character of this infrastructure has attracted international attention in its ' +
-      'own right. The Bank for International Settlements classes fast payment systems of this ' +
-      'kind as digital public infrastructure — open, interoperable systems that support ' +
-      'society-wide public and private services — and notes that India’s deployment of Aadhaar ' +
-      'and UPI has delivered substantial advances in both financial inclusion and payments ' +
-      'efficiency [20].',
+      'The fact that this is public infrastructure has drawn attention abroad. The Bank for ' +
+      'International Settlements calls systems like UPI digital public infrastructure. By this it ' +
+      'means open systems that anyone can connect to and that support services used by the whole ' +
+      'of society. It notes that Aadhaar and UPI together have made large gains in financial ' +
+      'inclusion and in the efficiency of payments [20].',
   },
 
   { t: 'h2', text: '1.5  From a cash economy to a digital economy' },
   {
     t: 'p', text:
-      'India entered this decade with one of the world’s higher ratios of currency in ' +
-      'circulation to GDP, and the Reserve Bank has treated the reduction of that ratio as an ' +
-      'explicit objective of policy, naming it in Payments Vision 2025 [26]. Cash is not costless: ' +
-      'it must be printed, transported, secured, sorted and destroyed, and every rupee sitting ' +
-      'in a pocket or a cash box is a rupee performing no work.',
+      'India began this decade holding more cash, relative to the size of its economy, than most ' +
+      'countries. The Reserve Bank has treated the reduction of that ratio as a goal of policy ' +
+      'and named it in Payments Vision 2025 [26]. Cash is not free. It has to be printed, moved, ' +
+      'guarded, sorted and destroyed. More importantly, every rupee sitting in a pocket or a cash ' +
+      'box is a rupee doing no work.',
   },
   {
     t: 'p', text:
-      'The shift away from cash has therefore been pursued deliberately rather than left to ' +
-      'convenience alone. Independent survey evidence commissioned by the Department of ' +
-      'Financial Services and released in February 2026 found that 90 per cent of users reported ' +
-      'greater confidence in digital payments after using UPI and RuPay, accompanied by a marked ' +
-      'decline in cash usage and ATM withdrawals [15]. This is the behavioural counterpart of the ' +
-      'aggregate statistics.',
+      'The move away from cash has therefore been pushed on purpose, not left to convenience. A ' +
+      'survey commissioned by the Department of Financial Services, released in February 2026, ' +
+      'found that 90 per cent of users felt more confident about digital payments after using UPI ' +
+      'and RuPay. The same survey recorded a clear fall in their use of cash and in ATM ' +
+      'withdrawals [15]. This is what the national figures look like at the level of one household.',
   },
 
   { t: 'h2', text: '1.6  The meaning of the velocity of money' },
   {
     t: 'p', text:
-      'The velocity of money is the average number of times one unit of currency is used to ' +
-      'purchase goods and services within a given period. It is not a physical property of money ' +
-      'but a behavioural one: it describes how quickly people part with the money they hold.',
+      'The velocity of money is the average number of times one rupee is used to buy goods and ' +
+      'services in a given period. It is not a physical quality of money. It describes how ' +
+      'quickly people spend the money they hold.',
   },
   {
     t: 'p', text:
-      'The idea is formalised in Irving Fisher’s equation of exchange, conventionally written as:',
+      'Irving Fisher set this out in his equation of exchange, usually written as:',
   },
   { t: 'equation', text: 'M × V  =  P × T' },
   {
     t: 'p', text:
-      'where M is the stock of money in circulation, V is the transactions velocity of that ' +
-      'money, P is the average price level and T is the volume of transactions. In its more ' +
-      'commonly used income form the identity becomes V = (P × Y) ÷ M, where P × Y is nominal ' +
-      'national income. Read from left to right, the identity says something simple and ' +
-      'important: for a given stock of money, a rise in velocity supports a larger volume of ' +
-      'transactions.',
+      'Here M is the stock of money in circulation, V is the velocity of that money, P is the ' +
+      'average price level and T is the number of transactions. The equation says something ' +
+      'simple. If the stock of money stays the same and the number of transactions rises, then ' +
+      'velocity must have risen. In its more common income form the equation becomes ' +
+      'V = (P × Y) ÷ M, where P × Y is national income at current prices.',
   },
   {
     t: 'p', text:
-      'It is essential to be precise about which velocity is meant, and this project is careful ' +
-      'to distinguish the two. Income velocity relates national output to the money stock, and ' +
-      'moves slowly. Transactions velocity relates the total value of all payments — including ' +
-      'the many transfers that are not themselves purchases of newly produced output — to the ' +
-      'money stock, and can move a great deal faster. Payment systems act on transactions ' +
-      'velocity directly and on income velocity only indirectly. Section 3.4 returns to this ' +
-      'distinction at length, because conflating the two is the commonest error in popular ' +
-      'writing on the subject.',
+      'It is important to say which velocity is meant, and this project is careful about that. ' +
+      'Income velocity compares national output with the money stock. It moves slowly. ' +
+      'Transactions velocity compares the value of all payments with the money stock, and it can ' +
+      'move much faster. The difference is that transactions velocity counts every payment, ' +
+      'including transfers that are not purchases of anything newly produced. Payment systems ' +
+      'affect transactions velocity directly and income velocity only indirectly. Section 3.4 ' +
+      'explains this at length, because mixing up the two is the most common mistake made on ' +
+      'this subject.',
   },
 
   { t: 'h2', text: '1.7  Digital payments and economic activity' },
   {
     t: 'p', text:
-      'How might a payment system affect real economic activity? Four channels are usually ' +
-      'proposed, and each recurs in the literature reviewed in Chapter 3.',
+      'How could a payment system change real economic activity? Four routes are usually ' +
+      'suggested, and each one appears again in the research reviewed in Chapter 3.',
   },
   {
     t: 'numbers', items: [
-      'Transaction costs fall. When paying costs nothing in fees and almost nothing in time, ' +
-      'exchanges that were previously not worth the friction begin to take place. The margin ' +
-      'here is very small payments — the ones cash handled badly and cards never reached.',
-      'Idle balances shrink. A household that can pay instantly from its account has less ' +
-      'reason to hold precautionary cash. Money held for transactions purposes falls relative ' +
-      'to spending, which is the same statement as a rise in velocity.',
-      'The informal economy becomes visible. A digital payment leaves a record. Records ' +
-      'accumulate into a credit history, and a credit history converts an unbanked trader into ' +
-      'a borrower — a channel the Reserve Bank has pursued explicitly through the Unified ' +
-      'Lending Interface [20].',
-      'Working capital turns over faster. A merchant paid instantly rather than at the end of ' +
-      'the day can restock sooner. The same rupee of working capital finances more sales in a ' +
-      'year.',
+      'The cost of paying falls. When a payment costs nothing in fees and almost nothing in time, ' +
+      'exchanges that were not worth the trouble before start to happen. This matters most for ' +
+      'very small payments, which cash handled badly and cards never reached at all.',
+      'People hold less idle money. A household that can pay instantly from its account does not ' +
+      'need to keep much cash in hand. Money held for spending falls compared with the amount ' +
+      'actually spent, and that is the same thing as a rise in velocity.',
+      'The informal economy becomes visible. A digital payment leaves a record. Records build up ' +
+      'into a credit history, and a credit history can turn a trader with no bank loan into a ' +
+      'borrower. The Reserve Bank has pursued this directly through the Unified Lending ' +
+      'Interface [20].',
+      'Working capital is reused faster. A shopkeeper paid at once, rather than at the end of the ' +
+      'day, can buy new stock sooner. The same rupee of working capital then pays for more sales ' +
+      'in a year.',
     ],
   },
   {
     t: 'p', text:
-      'These are plausible mechanisms rather than established magnitudes, and this project is ' +
-      'careful throughout to treat them as such.',
+      'These are reasonable explanations, not measured amounts, and this project treats them ' +
+      'that way throughout.',
   },
 
   { t: 'h2', text: '1.8  Financial inclusion and the formalisation of the economy' },
   {
     t: 'p', text:
-      'Financial inclusion means access to useful, affordable financial services. India’s ' +
-      'approach has rested on a sequence in which each layer depends on the one before it: ' +
-      'universal bank accounts opened under the Pradhan Mantri Jan Dhan Yojana, a digital ' +
-      'identity to authenticate the account holder, and a payment rail on which those accounts ' +
-      'could actually transact. By 4 August 2025 the Jan Dhan programme had reached over 55.98 ' +
-      'crore beneficiaries, more than 55 per cent of them women [7].',
+      'Financial inclusion means being able to use financial services that are useful and ' +
+      'affordable. India built this in layers, and each layer needed the one before it. First ' +
+      'came bank accounts for everyone under the Pradhan Mantri Jan Dhan Yojana. Then came a ' +
+      'digital identity to prove who the account holder was. Last came a payment system those ' +
+      'accounts could actually use. By 4 August 2025 the Jan Dhan scheme had reached over 55.98 ' +
+      'crore people, and more than 55 per cent of those accounts were held by women [7].',
   },
   {
     t: 'p', text:
-      'The measurable result appears in the Reserve Bank’s Financial Inclusion Index, which rose ' +
-      'from 64.2 in March 2024 to 67.0 in March 2025, with growth recorded across all three ' +
-      'sub-indices of access, usage and quality [7]. Formalisation follows from usage rather ' +
-      'than from access alone: an account that is merely opened changes nothing, while an ' +
-      'account that is used generates the transaction record on which credit and insurance can ' +
-      'later be built.',
+      'The result can be measured. The Reserve Bank’s Financial Inclusion Index rose from 64.2 in ' +
+      'March 2024 to 67.0 in March 2025, and all three of its parts improved: access, usage and ' +
+      'quality [7]. Formalisation comes from usage, not from access alone. An account that is ' +
+      'only opened changes nothing. An account that is used creates the record of transactions on ' +
+      'which credit and insurance can later be built.',
   },
 
   { t: 'h2', text: '1.9  Relevance in the post-demonetisation and post-pandemic economy' },
   {
     t: 'p', text:
-      'Two shocks bracket UPI’s first decade. In November 2016, banknotes of ₹500 and ₹1,000 ' +
-      'denominations — ₹15.4 trillion, or 86.9 per cent of the value of notes then in ' +
-      'circulation — ceased to be legal tender [23]. Monthly digital transactions rose 56 per ' +
-      'cent between October 2016 and May 2017 [24]. UPI, launched only months earlier, was ' +
-      'available at exactly the moment a nation was compelled to look for an alternative to cash.',
+      'Two shocks mark UPI’s first ten years. In November 2016, notes of ₹500 and ₹1,000 stopped ' +
+      'being legal tender. They were worth ₹15.4 trillion, which was 86.9 per cent of the value ' +
+      'of all notes then in circulation [23]. Monthly digital transactions rose 56 per cent ' +
+      'between October 2016 and May 2017 [24]. UPI had launched only months earlier, so it was ' +
+      'available at the exact moment the country was forced to look for something other than cash.',
   },
   {
     t: 'p', text:
-      'The second shock was the COVID-19 pandemic, which made contactless payment a matter of ' +
-      'public health rather than convenience and pushed a generation of small merchants into ' +
-      'accepting a QR code. The distinction between the two episodes is instructive and is ' +
-      'examined in Data Sets 5 and 6: the first was a sharp compulsion followed by partial ' +
-      'reversion, the second a slower change that did not reverse.',
+      'The second shock was COVID-19. It turned contactless payment into a health precaution ' +
+      'rather than a convenience, and it pushed a whole generation of small shopkeepers into ' +
+      'accepting a QR code. The two episodes worked differently, and Data Sets 5 and 6 examine ' +
+      'that difference. The first was a sharp force that people partly reversed afterwards. The ' +
+      'second was a slower change that did not reverse.',
   },
 
   { t: 'h2', text: '1.10  Statement of the problem' },
   {
     t: 'p', text:
-      'That UPI has grown is not in dispute; the figures are published monthly and are not ' +
-      'seriously contested. The question this project asks is narrower and harder. Has that ' +
-      'growth changed the speed at which money circulates in the Indian economy, and can any ' +
-      'effect on real economic activity be identified from publicly available data?',
+      'Nobody disputes that UPI has grown. The figures are published every month and are not ' +
+      'seriously questioned. The question this project asks is narrower and harder. Has that ' +
+      'growth changed the speed at which money circulates in India? And can any effect on real ' +
+      'economic activity be found in data that is publicly available?',
   },
   {
     t: 'p', text:
-      'The distinction between the two questions is the substance of this report. A payment ' +
-      'system can move an enormous quantity of money without altering national income at all, ' +
-      'if what it does is relocate transactions that would have occurred in cash. Establishing ' +
-      'whether something more than relocation has occurred requires evidence of a different ' +
-      'kind — evidence about transaction sizes, about who is transacting, and about what ' +
-      'merchants report. That evidence is assembled in Chapter 4.',
+      'The gap between those two questions is what this report is really about. A payment system ' +
+      'can move a huge amount of money without changing national income at all. That happens if ' +
+      'all it does is shift payments that would have been made in cash anyway. To show that ' +
+      'something more than shifting has happened, different evidence is needed: evidence about ' +
+      'the size of transactions, about who is paying, and about what shopkeepers report. That ' +
+      'evidence is collected in Chapter 4.',
   },
   { t: 'pb' },
 
@@ -245,131 +235,125 @@ const CH1_2 = [
   { t: 'h1', text: '2.  Design of Study' },
 
   { t: 'h2', text: '2.1  Objectives of the study' },
-  { t: 'p', text: 'This study is directed at five objectives.' },
+  { t: 'p', text: 'This study has five objectives.' },
   {
     t: 'numbers', items: [
-      'To understand the concept, architecture and growth of UPI-based digital payments in India ' +
-      'between FY 2016-17 and FY 2025-26.',
-      'To examine the relationship between UPI-based payments and the velocity of money, ' +
-      'distinguishing carefully between transactions velocity and income velocity.',
-      'To analyse the impact of digital payments on economic activity, including consumption ' +
-      'patterns, small-merchant sales and the formalisation of transactions.',
-      'To examine the role of UPI in promoting financial inclusion and in bringing informal ' +
-      'economic activity into the recorded economy.',
-      'To study the challenges and limitations of digital payment systems in India, including ' +
-      'cyber fraud, infrastructure dependence and unequal regional adoption.',
+      'To understand what UPI is, how it is built, and how it grew in India between FY 2016-17 ' +
+      'and FY 2025-26.',
+      'To examine the link between UPI payments and the velocity of money, keeping transactions ' +
+      'velocity and income velocity clearly separate.',
+      'To study the effect of digital payments on economic activity, including spending patterns, ' +
+      'the sales of small shopkeepers, and the recording of transactions.',
+      'To examine how far UPI has helped financial inclusion and brought informal economic ' +
+      'activity into the recorded economy.',
+      'To study the problems and limits of digital payment systems in India, including cyber ' +
+      'fraud, dependence on infrastructure, and uneven adoption across regions.',
     ],
   },
 
   { t: 'h2', text: '2.2  Research questions and hypotheses' },
   {
     t: 'p', text:
-      'The objectives above are translated into three testable propositions. They are stated ' +
-      'here so that the reader may judge, at the end of Chapter 4, whether the evidence ' +
-      'supports them.',
+      'These objectives are turned into three statements that can be tested. They are given here ' +
+      'so that the reader can judge, at the end of Chapter 4, whether the evidence supports them.',
   },
   {
     t: 'table',
     widths: [1200, 4400, 3426],
     head: ['', 'Hypothesis', 'Evidence used'],
     rows: [
-      ['H1', 'The value of payments settled per rupee of national output has risen substantially since FY 2016-17 — that is, transactions velocity has increased.', 'Data Sets 1 and 4'],
-      ['H2', 'UPI’s growth reflects genuinely new, small-value transactions rather than only the migration of existing large payments from cash.', 'Data Sets 2 and 3'],
-      ['H3', 'The gains in inclusion and usage are not distributed evenly between rural and urban India.', 'Data Sets 7 and 8'],
+      ['H1', 'The value of payments settled for every rupee of national output has risen sharply since FY 2016-17. In other words, transactions velocity has increased.', 'Data Sets 1 and 4'],
+      ['H2', 'UPI’s growth comes from genuinely new, small payments, and not only from large payments moving across from cash.', 'Data Sets 2 and 3'],
+      ['H3', 'The gains in inclusion and usage are not shared evenly between rural and urban India.', 'Data Sets 7 and 8'],
     ],
   },
 
   { t: 'h2', text: '2.3  Data collection methodology' },
   {
     t: 'p', text:
-      'The study is based entirely on secondary data. No primary survey was conducted, for the ' +
-      'straightforward reason that the phenomenon under study is national in scale and is ' +
-      'already measured, comprehensively and at high frequency, by the institutions that operate ' +
-      'and regulate it. A school-level survey could not improve on that measurement, and any ' +
-      'sample small enough to be feasible would be too small to be representative.',
+      'This study uses secondary data only. No survey was carried out, for a simple reason. The ' +
+      'subject is national in scale, and it is already measured in full, every month, by the ' +
+      'bodies that run and regulate it. A survey done by a school student could not improve on ' +
+      'those measurements. Any sample small enough to be practical would be far too small to ' +
+      'represent the country.',
   },
-  { t: 'p', text: 'Sources were selected in the following order of preference:' },
+  { t: 'p', text: 'Sources were chosen in this order of preference:' },
   {
     t: 'bullets', items: [
-      'Operator and regulator data. Transaction statistics published by the National Payments ' +
-      'Corporation of India, and the Annual Report, Payment Systems Report, Digital Payments ' +
-      'Index and Financial Inclusion Index of the Reserve Bank of India.',
-      'Government releases. Press Information Bureau releases and factsheets, replies placed ' +
-      'before Parliament, and the Economic Survey.',
-      'Official statistics. National income aggregates from the Ministry of Statistics and ' +
-      'Programme Implementation; telecom and internet subscription data from the Telecom ' +
-      'Regulatory Authority of India.',
-      'International institutional research. Publications of the International Monetary Fund, ' +
-      'the Bank for International Settlements and the World Bank, used chiefly for comparison ' +
-      'and for methodological guidance.',
-      'Academic literature. Peer-reviewed and pre-print research, used where it supplies ' +
-      'micro-level evidence that aggregate statistics cannot.',
+      'Operator and regulator data. Transaction statistics from the National Payments Corporation ' +
+      'of India, and the Annual Report, Payment Systems Report, Digital Payments Index and ' +
+      'Financial Inclusion Index of the Reserve Bank of India.',
+      'Government releases. Press Information Bureau releases and factsheets, answers given in ' +
+      'Parliament, and the Economic Survey.',
+      'Official statistics. National income figures from the Ministry of Statistics and Programme ' +
+      'Implementation, and telecom and internet data from the Telecom Regulatory Authority of ' +
+      'India.',
+      'International research. Publications of the International Monetary Fund, the Bank for ' +
+      'International Settlements and the World Bank, used mainly for comparison and for guidance ' +
+      'on method.',
+      'Academic research. Peer-reviewed papers and pre-prints, used where they show things at the ' +
+      'level of individual users that national figures cannot.',
     ],
   },
   {
     t: 'p', text:
-      'Commercial and news websites were deliberately avoided as primary sources of numbers. ' +
-      'Where a figure is quoted in this report, it is quoted from the institution that produced ' +
-      'it, and the reference number in square brackets points to the entry in the Bibliography ' +
-      'at which that institution’s release may be found.',
+      'Commercial and news websites were avoided as sources of figures. Every number quoted here ' +
+      'comes from the body that produced it. The number in square brackets points to the entry in ' +
+      'the Bibliography where that release can be found.',
   },
   {
     t: 'p', text:
-      'Two derived measures are computed by the author from published data rather than taken ' +
-      'from any source. The first is the average value of a UPI transaction, obtained by ' +
-      'dividing annual transaction value by annual transaction volume. The second is UPI ' +
-      'turnover as a multiple of nominal GDP. Both derivations are stated in full beside the ' +
-      'relevant tables so that they can be checked.',
+      'Two measures in this report were worked out by me, rather than taken from a source. The ' +
+      'first is the average value of a UPI transaction, found by dividing yearly value by yearly ' +
+      'volume. The second is UPI turnover as a multiple of nominal GDP. Both methods are written ' +
+      'out next to the relevant tables so that anyone can check them.',
   },
 
   { t: 'h2', text: '2.4  Scope of the study' },
   {
     t: 'p', text:
-      'The study is confined to the macroeconomic implications of digital payments in India. ' +
-      'Within that field its focus is narrower still: it is a study of UPI, and other ' +
-      'instruments — cards, wallets, IMPS, NEFT and RTGS — enter only where they are needed as ' +
-      'a comparison. The period examined runs from FY 2016-17, the first full year of UPI’s ' +
-      'operation, to FY 2025-26, the most recent year for which complete annual data were ' +
-      'available at the time of writing. The conceptual focus is on the velocity of money, ' +
-      'consumption and the formalisation of financial activity.',
+      'This study looks at the effect of digital payments on the Indian economy as a whole. ' +
+      'Within that, it focuses on UPI. Other instruments such as cards, wallets, IMPS, NEFT and ' +
+      'RTGS appear only where a comparison is needed. The period runs from FY 2016-17, UPI’s ' +
+      'first full year, to FY 2025-26, the most recent year with complete data when this was ' +
+      'written. The main ideas examined are the velocity of money, consumption, and the recording ' +
+      'of financial activity.',
   },
   {
     t: 'p', text:
-      'Certain adjacent questions are deliberately excluded. The study does not examine the ' +
-      'profitability of payment service providers, the design of central bank digital currency, ' +
-      'or the competition-policy question of market concentration among UPI applications. Each ' +
-      'is a substantial subject in its own right.',
+      'Some related questions are left out on purpose. This study does not look at the profits of ' +
+      'payment companies, at the design of a central bank digital currency, or at the competition ' +
+      'question of how few apps handle most UPI traffic. Each of those is a large subject in ' +
+      'itself.',
   },
 
   { t: 'h2', text: '2.5  Limitations of the study' },
   {
     t: 'p', text:
-      'The following limitations are stated plainly, because a study that conceals them invites ' +
-      'more confidence than its evidence can bear.',
+      'The limits below are stated openly. A study that hides them asks for more trust than its ' +
+      'evidence deserves.',
   },
   {
     t: 'numbers', items: [
-      'The study rests on secondary data. Its conclusions can be no more reliable than the ' +
-      'published statistics on which they depend.',
-      'Correlation is not causation. UPI expanded during a decade in which smartphone ownership, ' +
-      'internet access, bank account ownership and nominal income all rose together. This ' +
-      'project can describe association; it cannot isolate UPI’s independent causal contribution, ' +
-      'and it does not claim to.',
-      'Velocity cannot be measured directly. It is inferred from the ratio of payment or income ' +
-      'aggregates to a money stock, and different choices of numerator and denominator yield ' +
-      'materially different numbers. The turnover ratio used in Data Set 4 is a proxy, and its ' +
-      'limitations are set out where it is introduced.',
-      'Payment value is not output. A large share of UPI value consists of person-to-person ' +
-      'transfers, which are not purchases of newly produced goods and services and therefore do ' +
-      'not enter GDP. Any ratio of payment value to GDP must be read with this firmly in mind.',
-      'A revision of the national accounts occurred within the study period. Nominal GDP is now ' +
-      'published on a 2022-23 base, having previously used a 2011-12 base; the two series are ' +
-      'not perfectly continuous. The break is identified where it affects a calculation.',
-      'The ecosystem changes rapidly. Transaction limits, fee rules and product features were ' +
-      'revised repeatedly during the study period, and figures cited here are current only to ' +
-      'their stated date.',
-      'Regional variation is understated. National aggregates conceal wide differences between ' +
-      'states and between districts, and district-level UPI data are not published.',
+      'The study uses secondary data. Its conclusions can only be as reliable as the published ' +
+      'figures they rest on.',
+      'Correlation is not causation. UPI grew during a decade in which smartphone ownership, ' +
+      'internet access, bank accounts and incomes all rose together. This project can show that ' +
+      'things moved together. It cannot separate out UPI’s own effect, and it does not claim to.',
+      'Velocity cannot be measured directly. It has to be worked out from the ratio of payments ' +
+      'or income to a stock of money, and different choices give very different answers. The ' +
+      'turnover ratio used in Data Set 4 is an approximation, and its limits are explained where ' +
+      'it appears.',
+      'Payment value is not output. A large share of UPI value is money sent between individuals. ' +
+      'Those transfers do not buy anything newly produced, so they are not part of GDP. Any ratio ' +
+      'of payment value to GDP has to be read with that in mind.',
+      'The national accounts were revised during the study period. Nominal GDP is now published ' +
+      'on a 2022-23 base, having earlier used a 2011-12 base, so the two series do not join ' +
+      'perfectly. This break is pointed out wherever it affects a calculation.',
+      'The system changes quickly. Transaction limits, fee rules and features were revised several ' +
+      'times during the period, so the figures here are correct only up to the dates given.',
+      'Regional differences are hidden. National figures cover wide variation between states and ' +
+      'districts, and UPI data is not published at district level.',
     ],
   },
   { t: 'pb' },

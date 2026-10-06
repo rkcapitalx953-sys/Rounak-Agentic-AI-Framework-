@@ -3,256 +3,333 @@
 const { GLOSSARY } = require('./glossary');
 
 const CH4_5 = [
-  // ============================================ 5. FINDINGS & SUGGESTIONS ===
-  { t: 'h1', text: '5.  Findings and Suggestions' },
-
-  { t: 'h2', text: '5.1  Findings' },
   {
-    t: 'p', text:
-      'Seven findings emerge from the analysis in Chapter 4. Each is stated with the evidence ' +
-      'that supports it and with the qualification that evidence requires.',
+    t: 'h1',
+    text: '5.  Findings and Suggestions',
   },
   {
-    t: 'p', bold: true,
-    text: 'Finding 1.  UPI has become the default retail payment mechanism of the Indian economy.',
+    t: 'h2',
+    text: '5.1  Findings',
   },
   {
-    t: 'p', text:
-      'Volume rose from 2 crore transactions in FY 2016-17 to 24,162 crore in FY 2025-26, and ' +
-      'UPI accounted for 81 per cent of retail digital payment transactions in FY 2024-25 [2], ' +
-      '[14]. Growth occurred in every year of the period, and the absolute annual increment ' +
-      'continues to rise even as percentage growth moderates.',
+    t: 'p',
+    text: 'Seven findings come out of the analysis in Chapter 4. Each one is given with the ' +
+      'evidence behind it and with the qualification that evidence requires.',
   },
   {
-    t: 'p', bold: true,
-    text: 'Finding 2.  The growth is composed of small payments, and increasingly so.',
+    t: 'p',
+    bold: true,
+    text: 'Finding 1.  UPI has become the normal way India pays in shops.',
   },
   {
-    t: 'p', text:
-      'The average value of a UPI transaction fell from ₹1,838 in FY 2020-21 to ₹1,300 in ' +
-      'FY 2025-26, a decline of roughly 29 per cent, while volume rose more than ten-fold over ' +
-      'the same years (Data Set 2). Person-to-merchant transactions now form 63 per cent of ' +
-      'volume, of which 86 per cent are below ₹500 [2]. Since prices rose over the period, the ' +
-      'shift towards small payments is larger in real terms than the nominal figures show.',
+    t: 'p',
+    text: 'Volume rose from 2 crore transactions in FY 2016-17 to 24,162 crore in FY 2025-26. ' +
+      'UPI made up 81 per cent of retail digital payment transactions in FY 2024-25 [2], ' +
+      '[14]. Growth happened in every year of the period, and the actual increase each year ' +
+      'keeps rising even as the percentage growth slows.',
   },
   {
-    t: 'p', bold: true,
-    text: 'Finding 3.  Measured transactions turnover per rupee of output has risen substantially.',
+    t: 'p',
+    bold: true,
+    text: 'Finding 2.  The growth is made up of small payments, and increasingly so.',
   },
   {
-    t: 'p', text:
-      'UPI value as a multiple of nominal GDP rose from 0.52 in FY 2022-23 to 0.91 in FY 2025-26 ' +
-      '(Data Set 4). This is consistent with the Cambridge prediction that a fall in the cost of ' +
-      'transacting reduces the money balance held against a given volume of spending. It is a ' +
-      'transactions measure, not income velocity, and part of the rise reflects the migration of ' +
-      'previously unmeasured cash payments into a measured system. The available data cannot ' +
-      'separate the two components.',
+    t: 'p',
+    text: 'The average value of a UPI payment fell from ₹1,838 in FY 2020-21 to ₹1,300 in FY ' +
+      '2025-26, a fall of about 29 per cent. Over the same years volume rose more than ten ' +
+      'times (Data Set 2). Person-to-merchant payments are now 63 per cent of volume, and ' +
+      '86 per cent of those are below ₹500 [2]. Since prices rose over the period, the ' +
+      'shift towards small payments is even larger in real terms than the figures show.',
   },
   {
-    t: 'p', bold: true,
-    text: 'Finding 4.  Both external shocks accelerated adoption, but only one produced a durable change.',
+    t: 'p',
+    bold: true,
+    text: 'Finding 3.  The value of payments settled for each rupee of output has risen sharply.',
   },
   {
-    t: 'p', text:
-      'Digital transactions rose 56 per cent in the seven months after demonetisation [24], but ' +
-      'approximately 98.96 per cent of the demonetised currency returned to the banking system ' +
-      '[23] and cash usage substantially recovered. The pandemic produced 78 per cent growth in ' +
-      'FY 2020-21 followed by 106 per cent in FY 2021-22 — faster after the shock than during ' +
-      'it — and growth continued at 82 and 57 per cent in the two subsequent years (Data Set 6). ' +
-      'The distinguishing factor appears to be duration: the pandemic lasted long enough for ' +
-      'digital payment to become habitual.',
+    t: 'p',
+    text: 'UPI value as a multiple of nominal GDP rose from 0.52 in FY 2022-23 to 0.91 in FY ' +
+      '2025-26 (Data Set 4). This fits the Cambridge prediction that when paying becomes ' +
+      'cheaper, people hold less money against a given amount of spending. It is a ' +
+      'transactions measure, not income velocity. Part of the rise is cash payments ' +
+      'becoming visible for the first time, and the available data cannot separate the two.',
   },
   {
-    t: 'p', bold: true,
-    text: 'Finding 5.  UPI has contributed to measurable gains in financial inclusion.',
+    t: 'p',
+    bold: true,
+    text: 'Finding 4.  Both shocks speeded up adoption, but only one produced a lasting change.',
   },
   {
-    t: 'p', text:
-      'The RBI Financial Inclusion Index rose from 64.2 to 67.0 between March 2024 and March ' +
-      '2025 with improvement across access, usage and quality [7]. The usage gain matters most, ' +
-      'since access had already been largely achieved: the share of Indian women holding ' +
-      'inactive accounts fell from a third in 2021 to 18 per cent by 2024 [21].',
+    t: 'p',
+    text: 'Digital transactions rose 56 per cent in the seven months after demonetisation [24]. ' +
+      'But about 98.96 per cent of the withdrawn currency came back to the banking system ' +
+      '[23], and cash use recovered a great deal. The pandemic produced 78 per cent growth ' +
+      'in FY 2020-21 and then 106 per cent in FY 2021-22, which is faster after the shock ' +
+      'than during it. Growth continued at 82 and 57 per cent in the next two years (Data ' +
+      'Set 6). The difference seems to be how long each lasted. The pandemic went on long ' +
+      'enough for digital payment to become a habit.',
   },
   {
-    t: 'p', bold: true,
-    text: 'Finding 6.  There is credible evidence of an effect on real activity, though it is not conclusive.',
+    t: 'p',
+    bold: true,
+    text: 'Finding 5.  UPI has helped financial inclusion in ways that can be measured.',
   },
   {
-    t: 'p', text:
-      'Of small merchants surveyed for the Department of Financial Services, 94 per cent had ' +
-      'adopted UPI and 57 per cent reported an increase in sales following adoption [15]. This ' +
-      'is self-reported and cannot be audited, and a merchant may attribute to a payment method ' +
-      'a gain with other causes. It nonetheless constitutes the most direct available evidence ' +
-      'that the effect reaches output and not merely the composition of payments. Cross-country ' +
-      'work supports the direction: the BIS finds that fast payment system launches stimulate ' +
-      'digital finance adoption, most strongly in lower-income economies [20].',
+    t: 'p',
+    text: 'The RBI Financial Inclusion Index rose from 64.2 to 67.0 between March 2024 and ' +
+      'March 2025, improving in access, usage and quality [7]. The gain in usage matters ' +
+      'most, because access had already been largely achieved. The share of Indian women ' +
+      'holding inactive accounts fell from a third in 2021 to 18 per cent by 2024 [21].',
   },
   {
-    t: 'p', bold: true,
-    text: 'Finding 7.  The gains are unequally distributed, and two significant risks accompany them.',
+    t: 'p',
+    bold: true,
+    text: 'Finding 6.  There is believable evidence of an effect on real activity, but it is ' +
+      'not proof.',
   },
   {
-    t: 'p', text:
-      'Rural internet penetration was 46.73 subscribers per 100 people against an urban 113.83 ' +
-      'in August 2025 [22], which caps how inclusive a network-dependent payment system can be. ' +
-      'Cybersecurity incidents rose from 10.29 lakh in 2022 to 22.68 lakh in 2024 [28]. And ' +
-      'roughly 75 per cent of users in one survey reported spending more because digital money ' +
-      'felt less tangible [25] — the same frictionlessness that raises velocity also removes a ' +
-      'restraint that cash imposed incidentally.',
-  },
-
-  { t: 'h2', text: '5.2  Suggestions' },
-  {
-    t: 'p', text:
-      'Six suggestions follow from the findings. They are directed at the constraints the ' +
-      'evidence actually identifies rather than at general aspirations.',
+    t: 'p',
+    text: 'Of the small shopkeepers surveyed for the Department of Financial Services, 94 per ' +
+      'cent had adopted UPI and 57 per cent said their sales had risen afterwards [15]. ' +
+      'These are reported figures that cannot be audited, and a shopkeeper may credit a ' +
+      'payment method for a gain that had another cause. Even so, it is the most direct ' +
+      'evidence available that the effect reaches output and not just the way payments are ' +
+      'made. Research from other countries points the same way. The BIS finds that ' +
+      'launching a fast payment system increases the use of digital finance, most strongly ' +
+      'in lower-income countries [20].',
   },
   {
-    t: 'numbers', items: [
-      'Treat rural connectivity as payments policy. Data Set 8 shows the binding constraint on ' +
-      'rural digital payment is network access, not merchant acceptance: 5.45 crore touch points ' +
-      'have been deployed in tier-3 to tier-6 centres [14], yet fewer than half of rural ' +
-      'residents are connected. Extending broadband is therefore a more effective payments ' +
-      'intervention at the margin than further acceptance subsidy.',
-      'Invest in fraud awareness at the scale of the system itself. UPI’s technical defences — ' +
-      'device binding, two-factor authentication, machine-learning transaction monitoring [28] — ' +
-      'are strong; the exploited vulnerability is the user’s judgement. Awareness campaigns ' +
-      'should be treated as core infrastructure and delivered in regional languages through the ' +
-      'payment applications themselves, at the point of transaction.',
-      'Build spending-awareness features into payment applications. Given the finding that a ' +
-      'large majority of surveyed users report spending more because digital money feels less ' +
-      'tangible [25], applications could offer opt-in periodic spending summaries and ' +
-      'self-imposed limits. This addresses a documented behavioural cost without restricting ' +
-      'anyone’s choices.',
-      'Publish disaggregated payment statistics. The most significant analytical limitation ' +
-      'encountered in this project was the absence of state- and district-level UPI data, which ' +
-      'made it impossible to examine regional variation. Releasing anonymised, disaggregated ' +
-      'statistics would enable research that national aggregates cannot support.',
-      'Reduce single points of failure. As cash is displaced, an outage ceases to be an ' +
-      'inconvenience and becomes an interruption of commerce. Offline and feature-phone payment ' +
-      'modes deserve continued investment specifically as resilience measures, not merely as ' +
-      'inclusion measures.',
-      'Evaluate the incentive framework openly. Zero-cost payment is financed by the exchequer ' +
-      'rather than by merchants [14], [15]. Whether the gains in formalisation, inclusion and ' +
-      'tax visibility exceed that outlay is an empirical question that deserves periodic public ' +
-      'evaluation, since the answer determines whether the current pricing model is sustainable.',
+    t: 'p',
+    bold: true,
+    text: 'Finding 7.  The gains are shared unevenly, and two serious risks come with them.',
+  },
+  {
+    t: 'p',
+    text: 'In August 2025 rural areas had 46.73 internet subscribers per 100 people against ' +
+      '113.83 in urban areas [22]. That sets a ceiling on how inclusive a system needing a ' +
+      'network can be. Cybersecurity incidents rose from 10.29 lakh in 2022 to 22.68 lakh ' +
+      'in 2024 [28]. And about 75 per cent of users in one survey said they spent more ' +
+      'because digital money felt less real [25]. The same ease that raises velocity also ' +
+      'removes a restraint that cash used to provide by accident.',
+  },
+  {
+    t: 'h2',
+    text: '5.2  Suggestions',
+  },
+  {
+    t: 'p',
+    text: 'Six suggestions follow from these findings. Each one addresses a problem the ' +
+      'evidence actually shows, rather than a general wish.',
+  },
+  {
+    t: 'numbers',
+    items: [
+      'Treat rural connectivity as payments policy. Data Set 8 shows that what limits rural ' +
+      'digital payment is network access, not shop acceptance. About 5.45 crore payment ' +
+      'points have been set up in tier-3 to tier-6 centres [14], yet fewer than half of ' +
+      'rural people are connected. Extending broadband would therefore do more good now ' +
+      'than paying for more acceptance infrastructure.',
+      'Spend on fraud awareness on the same scale as the system itself. UPI\'s technical ' +
+      'defences are strong: the app is tied to one device, a PIN is required, and machine ' +
+      'learning watches for suspicious payments [28]. The weak point is the user\'s ' +
+      'judgement. Awareness campaigns should be treated as essential infrastructure and ' +
+      'delivered in regional languages, inside the payment apps, at the moment of paying.',
+      'Build spending-awareness features into payment apps. Since most surveyed users say ' +
+      'they spend more because digital money feels less real [25], apps could offer ' +
+      'optional monthly spending summaries and limits that users set for themselves. This ' +
+      'deals with a real cost without taking away anyone\'s choice.',
+      'Publish payment data broken down by region. The biggest limitation I faced was that ' +
+      'UPI data is not published by state or district, which made it impossible to study ' +
+      'regional differences. Releasing this data, with names removed, would allow research ' +
+      'that national totals cannot support.',
+      'Reduce single points of failure. As cash disappears, a breakdown stops being an ' +
+      'inconvenience and starts stopping trade. Offline payment modes and modes that work ' +
+      'on basic phones deserve continued investment, specifically so the system can survive ' +
+      'failures and not only to include more people.',
+      'Review the incentive scheme openly. Free payment is paid for by the Government ' +
+      'rather than by shopkeepers [14], [15]. Whether the gains in recorded activity, ' +
+      'inclusion and tax collection are worth that spending is a question that can be ' +
+      'answered with evidence, and it should be reviewed publicly from time to time, ' +
+      'because the answer decides whether free payment can continue.',
     ],
   },
-  { t: 'pb' },
-
-  // ======================================================= 6. CONCLUSION ====
-  { t: 'h1', text: '6.  Conclusion' },
   {
-    t: 'p', text:
-      'This project set out to ask whether the growth of UPI has changed the speed at which ' +
-      'money circulates in the Indian economy, and whether any effect on real economic activity ' +
-      'can be identified from published data. The two questions deserve separate answers.',
+    t: 'pb',
   },
   {
-    t: 'p', text:
-      'On circulation, the evidence is strong. The value settled over UPI rose from roughly half ' +
-      'of nominal GDP in FY 2022-23 to approximately nine-tenths of it in FY 2025-26, and the ' +
-      'number of transactions rose thirteen-fold over the decade while the average transaction ' +
-      'shrank by nearly a third. Read through Fisher’s identity, this is a large increase in the ' +
-      'number of transactions supported by a given money stock; read through the Cambridge ' +
-      'formulation, it is a fall in the balance people need to hold against their spending. Both ' +
-      'readings describe a rise in the transactions velocity of money. The qualification, stated ' +
-      'plainly in Data Set 4 and repeated here, is that some part of the measured increase is ' +
-      'the migration of cash payments — real, but previously invisible — into a system that ' +
-      'counts them.',
+    t: 'h1',
+    text: '6.  Conclusion',
   },
   {
-    t: 'p', text:
-      'On economic activity the evidence is suggestive rather than conclusive, and this project ' +
-      'declines to claim more. That 57 per cent of small merchants report higher sales after ' +
-      'adopting digital payment [15] is the most direct indication available that the effect ' +
-      'reaches output. That the BIS finds fast payment systems stimulate digital finance ' +
-      'adoption most strongly in lower-income economies [20], and that the IMF finds faster ' +
-      'growth in districts where interoperability delivered the largest gain [18], both point ' +
-      'the same way. None of this isolates UPI’s independent causal contribution from the ' +
-      'simultaneous expansion of smartphones, internet access, bank accounts and nominal incomes ' +
-      'over the same decade. A study based on published aggregates cannot perform that ' +
-      'separation, and it would be dishonest to pretend otherwise.',
+    t: 'p',
+    text: 'This project asked whether the growth of UPI has changed the speed at which money ' +
+      'circulates in India, and whether any effect on real economic activity can be found ' +
+      'in published data. The two questions deserve different answers.',
   },
   {
-    t: 'p', text:
-      'What can be said without qualification is that UPI has transformed payment behaviour. It ' +
-      'has done so by solving a problem that cards and wallets could not: making the very small ' +
-      'payment worth making. The decline in average transaction size from ₹1,838 to ₹1,300, ' +
-      'occurring alongside a ten-fold rise in volume and in the face of inflation, is the ' +
-      'signature of a system reaching transactions it did not previously serve. The tea, the ' +
-      'vegetables, the auto fare — these are the payments UPI added, and they are the reason ' +
-      'the aggregate numbers are what they are.',
+    t: 'p',
+    text: 'On circulation, the evidence is strong. The value settled over UPI rose from roughly ' +
+      'half of nominal GDP in FY 2022-23 to about nine-tenths of it in FY 2025-26. Over the ' +
+      'decade the number of transactions rose thirteen times while the average payment ' +
+      'shrank by nearly a third. Read through Fisher\'s equation, that is a large rise in ' +
+      'the number of transactions supported by a given stock of money. Read through the ' +
+      'Cambridge version, it is a fall in the balance people need to hold against their ' +
+      'spending. Both readings describe a rise in the transactions velocity of money. The ' +
+      'qualification, stated plainly in Data Set 4, is that part of the measured rise is ' +
+      'cash payments moving into a system that counts them. Those payments were always ' +
+      'real; they were simply invisible before.',
   },
   {
-    t: 'p', text:
-      'The efficiency case is therefore genuine. Money that need not be withdrawn, carried and ' +
-      're-deposited is money available for use; a merchant paid instantly restocks sooner; a ' +
-      'transaction that leaves a record can become the basis of credit. These are real gains ' +
-      'and they are consistent with everything in Chapter 4.',
+    t: 'p',
+    text: 'On economic activity the evidence points in one direction but does not prove the ' +
+      'case, and this project does not claim more. That 57 per cent of small shopkeepers ' +
+      'report higher sales after adopting digital payment [15] is the most direct sign ' +
+      'available that the effect reaches output. The BIS finding that fast payment systems ' +
+      'raise digital finance use most in lower-income countries [20], and the IMF finding ' +
+      'of faster growth in districts where interoperability helped most [18], both point ' +
+      'the same way. None of this separates UPI\'s own effect from the simultaneous spread ' +
+      'of smartphones, internet access, bank accounts and higher incomes over the same ' +
+      'decade. A study based on published national figures cannot make that separation, and ' +
+      'it would be dishonest to pretend otherwise.',
   },
   {
-    t: 'p', text:
-      'Two problems remain unresolved and neither is incidental. The first is unequal access: ' +
-      'with rural internet penetration at less than half the urban rate, a payment system that ' +
-      'requires connectivity cannot be more inclusive than the network beneath it, and the ' +
-      'people least reached are those for whom inclusion would matter most. The second is ' +
-      'security, where the growth in cyber incidents tracks the growth of the system and the ' +
-      'weak point is the user rather than the technology.',
+    t: 'p',
+    text: 'What can be said without qualification is that UPI has changed how India pays. It ' +
+      'did so by solving a problem cards and wallets never could, which was making the very ' +
+      'small payment worth making. The average payment fell from ₹1,838 to ₹1,300 while ' +
+      'volume rose more than ten times, and it did so despite inflation pushing the other ' +
+      'way. That is the mark of a system reaching transactions it never served before. The ' +
+      'tea, the vegetables, the auto fare: these are the payments UPI added, and they are ' +
+      'why the national figures look the way they do.',
   },
   {
-    t: 'p', text:
-      'A closing observation seems warranted. India built this system as public infrastructure ' +
-      'and chose to make it free at the point of use, financing the cost from the exchequer ' +
-      'rather than from merchants. Almost every comparable system abroad made the opposite ' +
-      'choice. The adoption documented in this report is, in significant part, the consequence ' +
-      'of that decision — which suggests that the most important thing about UPI may not be its ' +
-      'technology at all, but the view of payment as a public good that the technology was built ' +
-      'to serve.',
+    t: 'p',
+    text: 'The case for greater efficiency is therefore genuine. Money that does not have to be ' +
+      'withdrawn, carried and deposited again is money available for use. A shopkeeper paid ' +
+      'instantly can buy new stock sooner. A transaction that leaves a record can later ' +
+      'become the basis of a loan. These are real gains and they fit everything found in ' +
+      'Chapter 4.',
   },
-  { t: 'pb' },
+  {
+    t: 'p',
+    text: 'Two problems remain, and neither is minor. The first is unequal access. With rural ' +
+      'internet reaching less than half the urban rate, a payment system that needs ' +
+      'connectivity cannot include more people than the network does, and the people left ' +
+      'out are those for whom inclusion would matter most. The second is security, where ' +
+      'the rise in cyber incidents tracks the growth of the system, and where the weak ' +
+      'point is the user rather than the technology.',
+  },
+  {
+    t: 'p',
+    text: 'One last observation is worth making. India built this system as public ' +
+      'infrastructure and chose to make it free to use, paying the cost from government ' +
+      'funds rather than charging shopkeepers. Almost every similar system abroad chose the ' +
+      'opposite. The adoption described in this report is, in large part, a result of that ' +
+      'decision. That suggests the most important thing about UPI may not be its technology ' +
+      'at all, but the view of payment as a public service that the technology was built to ' +
+      'serve.',
+  },
+  {
+    t: 'pb',
+  },
 
   ...GLOSSARY,
 
-  // ====================================================== BIBLIOGRAPHY ======
-  { t: 'h1', text: 'Bibliography' },
   {
-    t: 'p', italicAll: true, text:
-      'Entries are numbered as cited in the text. All sources were consulted online and were ' +
-      'available at the addresses shown at the time of writing.',
+    t: 'h1',
+    text: 'Bibliography',
   },
   {
-    t: 'refs', items: [
-      'National Payments Corporation of India. UPI Product Statistics. https://www.npci.org.in/what-we-do/upi/product-statistics',
-      'Press Information Bureau, Government of India. "UPI completes 10 glorious years, Emerges as World’s Largest Real-Time Payments Platform, Anchoring India’s Digital Economy." https://www.pib.gov.in/PressReleasePage.aspx?PRID=2257087',
-      'Press Information Bureau, Government of India. "UPI Recognized as World’s Largest Real-Time Payment System by IMF; Accounts for 49% of Global Transactions." https://www.pib.gov.in/PressReleasePage.aspx?PRID=2200569',
-      'Reserve Bank of India. Annual Report 2024-25, Chapter on Payment and Settlement Systems. https://www.rbi.org.in/Scripts/AnnualReportMainDisplay.aspx',
-      'Reserve Bank of India. Payment Systems Report, Half Year ended December 2024. https://www.rbi.org.in/scripts/PublicationsView.aspx?Id=23127',
-      'Reserve Bank of India. Press releases on the RBI Digital Payments Index (RBI-DPI). https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60913',
-      'Press Information Bureau, Government of India. "RBI’s Financial Inclusion Index rises to 67 in 2025." https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=154980&ModuleId=3',
-      'Ministry of Statistics and Programme Implementation. Press Note on Provisional Estimates of Annual GDP for 2024-25. https://www.mospi.gov.in/sites/default/files/press_release/NAD_PR_30may2025.pdf',
-      'Ministry of Statistics and Programme Implementation. Press Note on Provisional Estimates of Annual GDP for 2025-26. https://www.pib.gov.in/PressReleasePage.aspx?PRID=2269286',
-      'Press Information Bureau, Government of India. "Total digital payment transactions volume increases from 2,071 crore in FY 2017-18 to 13,462 crore in FY 2022-23 at a CAGR of 45 per cent." https://www.pib.gov.in/PressReleasePage.aspx?PRID=1988370',
-      'Press Information Bureau, Government of India. "Total digital payment transactions grow by 46% from 8,839 crore in FY 2021-22 to 18,737 crore in FY 2023-24." https://www.pib.gov.in/PressReleasePage.aspx?PRID=2110407',
-      'Press Information Bureau, Government of India. "Indian digital payment landscape witnesses over 65,000 crore digital transactions amounting to more than ₹12,000 lakh crore in last 6 Financial years." https://www.pib.gov.in/PressReleasePage.aspx?PRID=2149372',
-      'Press Information Bureau, Government of India. "UPI transactions grew from ₹1 lakh crore in FY 2017-18 to ₹139 lakh crore in FY 2022-23 in value, at a CAGR of 168%." https://www.pib.gov.in/PressReleasePage.aspx?PRID=1987764',
-      'Press Information Bureau, Government of India. "Coordinated Efforts of Government, RBI and NPCI Accelerate Growth in Digital Payments." https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240723',
-      'Department of Financial Services, Ministry of Finance. "Socio-Economic Impact Analysis of Incentive Scheme for Promotion of RuPay Debit Card and low-value BHIM-UPI Transactions (P2M)", released at Chintan Shivir 2026. https://www.pib.gov.in/PressReleasePage.aspx?PRID=2228651',
-      'Press Information Bureau, Government of India. "Nearly 55.49 Crore Users Onboarded on UPI as in June 2026." https://www.pib.gov.in/PressReleasePage.aspx?PRID=2286608',
-      'Press Information Bureau, Government of India. "UPI is now live in over eight countries." https://www.pib.gov.in/PressReleasePage.aspx?PRID=2224505',
-      'International Monetary Fund. Growing Retail Digital Payments: The Value of Interoperability. FinTech Note 2025/004, June 2025. https://www.imf.org/en/publications/fintech-notes/issues/2025/06/25/growing-retail-digital-payments-the-value-of-interoperability-567814',
-      'International Monetary Fund. "India’s Frictionless Payments." Finance & Development, September 2025. https://www.imf.org/en/publications/fandd/issues/2025/09/indias-frictionless-payments-maria-peria',
-      'Bank for International Settlements. Retail fast payment systems as a catalyst for digital finance. BIS Working Paper No. 1228, November 2024. https://www.bis.org/publ/work1228.htm',
-      'World Bank. The Global Findex Database 2025: Connectivity and Financial Inclusion in the Digital Economy. https://www.worldbank.org/en/publication/globalfindex',
-      'Telecom Regulatory Authority of India. Telecom Subscription Data and Indian Telecom Services Performance Indicator Reports, 2025. https://www.trai.gov.in/release-publication/reports/telecom-subscriptions-reports',
-      'Reserve Bank of India. Macroeconomic Impact of Demonetisation — A Preliminary Assessment, 2017. https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/MID10031760E85BDAFEFD497193995BB1B6DBE602.PDF',
-      'Press Information Bureau, Government of India. "Status of the Return of SBNs — Reserve Bank of India Annual Report 2016-17." https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=170379',
-      'Dev, H., Gupta, R., Dharmavaram, S. and Kumar, D. "From Cash to Cashless: UPI’s Impact on Spending Behavior Among Indian Users and Prototyping Financially Responsible Interfaces." ACM CHI 2024 Late Breaking Work; arXiv:2401.09937. https://arxiv.org/abs/2401.09937',
-      'Reserve Bank of India. Payments Vision 2025. https://rbidocs.rbi.org.in/rdocs/PublicationReport/Pdfs/PAYMENTSVISION2025844D11300C884DC4ACB8E56B7348F4D4.PDF',
-      'Reserve Bank of India. National Strategy for Financial Inclusion 2025-30. https://www.rbi.org.in/commonman/Upload/English/Content/PDFs/English12052026.pdf',
-      'Press Information Bureau, Government of India. "Curbing Cyber Frauds in Digital India." https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=155384&ModuleId=3',
-      'Badrawani, W. et al. "The Role of Digital Payments in Driving Regional Economic Growth: A Panel Data Analysis with Structural Break." arXiv:2508.02119, August 2025. https://arxiv.org/abs/2508.02119',
-      'Ministry of Finance, Government of India. Economic Survey 2025-26, Statistical Appendix. https://www.indiabudget.gov.in/economicsurvey/',
+    t: 'p',
+    italicAll: true,
+    text: 'Entries are numbered as cited in the text. All sources were consulted online and ' +
+      'were available at the addresses shown at the time of writing.',
+  },
+  {
+    t: 'refs',
+    items: [
+      'National Payments Corporation of India. UPI Product Statistics. ' +
+      'https://www.npci.org.in/what-we-do/upi/product-statistics',
+      'Press Information Bureau, Government of India. "UPI completes 10 glorious years, ' +
+      'Emerges as World’s Largest Real-Time Payments Platform, Anchoring India’s Digital ' +
+      'Economy." https://www.pib.gov.in/PressReleasePage.aspx?PRID=2257087',
+      'Press Information Bureau, Government of India. "UPI Recognized as World’s Largest ' +
+      'Real-Time Payment System by IMF; Accounts for 49% of Global Transactions." ' +
+      'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2200569',
+      'Reserve Bank of India. Annual Report 2024-25, Chapter on Payment and Settlement ' +
+      'Systems. https://www.rbi.org.in/Scripts/AnnualReportMainDisplay.aspx',
+      'Reserve Bank of India. Payment Systems Report, Half Year ended December 2024. ' +
+      'https://www.rbi.org.in/scripts/PublicationsView.aspx?Id=23127',
+      'Reserve Bank of India. Press releases on the RBI Digital Payments Index (RBI-DPI). ' +
+      'https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60913',
+      'Press Information Bureau, Government of India. "RBI’s Financial Inclusion Index ' +
+      'rises to 67 in 2025." ' +
+      'https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=154980&ModuleId=3',
+      'Ministry of Statistics and Programme Implementation. Press Note on Provisional ' +
+      'Estimates of Annual GDP for 2024-25. ' +
+      'https://www.mospi.gov.in/sites/default/files/press_release/NAD_PR_30may2025.pdf',
+      'Ministry of Statistics and Programme Implementation. Press Note on Provisional ' +
+      'Estimates of Annual GDP for 2025-26. ' +
+      'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2269286',
+      'Press Information Bureau, Government of India. "Total digital payment transactions ' +
+      'volume increases from 2,071 crore in FY 2017-18 to 13,462 crore in FY 2022-23 at a ' +
+      'CAGR of 45 per cent." https://www.pib.gov.in/PressReleasePage.aspx?PRID=1988370',
+      'Press Information Bureau, Government of India. "Total digital payment transactions ' +
+      'grow by 46% from 8,839 crore in FY 2021-22 to 18,737 crore in FY 2023-24." ' +
+      'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2110407',
+      'Press Information Bureau, Government of India. "Indian digital payment landscape ' +
+      'witnesses over 65,000 crore digital transactions amounting to more than ₹12,000 lakh ' +
+      'crore in last 6 Financial years." ' +
+      'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2149372',
+      'Press Information Bureau, Government of India. "UPI transactions grew from ₹1 lakh ' +
+      'crore in FY 2017-18 to ₹139 lakh crore in FY 2022-23 in value, at a CAGR of 168%." ' +
+      'https://www.pib.gov.in/PressReleasePage.aspx?PRID=1987764',
+      'Press Information Bureau, Government of India. "Coordinated Efforts of Government, ' +
+      'RBI and NPCI Accelerate Growth in Digital Payments." ' +
+      'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240723',
+      'Department of Financial Services, Ministry of Finance. "Socio-Economic Impact ' +
+      'Analysis of Incentive Scheme for Promotion of RuPay Debit Card and low-value ' +
+      'BHIM-UPI Transactions (P2M)", released at Chintan Shivir 2026. ' +
+      'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2228651',
+      'Press Information Bureau, Government of India. "Nearly 55.49 Crore Users Onboarded ' +
+      'on UPI as in June 2026." https://www.pib.gov.in/PressReleasePage.aspx?PRID=2286608',
+      'Press Information Bureau, Government of India. "UPI is now live in over eight ' +
+      'countries." https://www.pib.gov.in/PressReleasePage.aspx?PRID=2224505',
+      'International Monetary Fund. Growing Retail Digital Payments: The Value of ' +
+      'Interoperability. FinTech Note 2025/004, June 2025. ' +
+      'https://www.imf.org/en/publications/fintech-notes/issues/2025/06/25/growing-retail-digital-payments-the-value-of-interoperability-567814',
+      'International Monetary Fund. "India’s Frictionless Payments." Finance & Development, ' +
+      'September 2025. ' +
+      'https://www.imf.org/en/publications/fandd/issues/2025/09/indias-frictionless-payments-maria-peria',
+      'Bank for International Settlements. Retail fast payment systems as a catalyst for ' +
+      'digital finance. BIS Working Paper No. 1228, November 2024. ' +
+      'https://www.bis.org/publ/work1228.htm',
+      'World Bank. The Global Findex Database 2025: Connectivity and Financial Inclusion in ' +
+      'the Digital Economy. https://www.worldbank.org/en/publication/globalfindex',
+      'Telecom Regulatory Authority of India. Telecom Subscription Data and Indian Telecom ' +
+      'Services Performance Indicator Reports, 2025. ' +
+      'https://www.trai.gov.in/release-publication/reports/telecom-subscriptions-reports',
+      'Reserve Bank of India. Macroeconomic Impact of Demonetisation — A Preliminary ' +
+      'Assessment, 2017. ' +
+      'https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/MID10031760E85BDAFEFD497193995BB1B6DBE602.PDF',
+      'Press Information Bureau, Government of India. "Status of the Return of SBNs — ' +
+      'Reserve Bank of India Annual Report 2016-17." ' +
+      'https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=170379',
+      'Dev, H., Gupta, R., Dharmavaram, S. and Kumar, D. "From Cash to Cashless: UPI’s ' +
+      'Impact on Spending Behavior Among Indian Users and Prototyping Financially ' +
+      'Responsible Interfaces." ACM CHI 2024 Late Breaking Work; arXiv:2401.09937. ' +
+      'https://arxiv.org/abs/2401.09937',
+      'Reserve Bank of India. Payments Vision 2025. ' +
+      'https://rbidocs.rbi.org.in/rdocs/PublicationReport/Pdfs/PAYMENTSVISION2025844D11300C884DC4ACB8E56B7348F4D4.PDF',
+      'Reserve Bank of India. National Strategy for Financial Inclusion 2025-30. ' +
+      'https://www.rbi.org.in/commonman/Upload/English/Content/PDFs/English12052026.pdf',
+      'Press Information Bureau, Government of India. "Curbing Cyber Frauds in Digital ' +
+      'India." https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=155384&ModuleId=3',
+      'Badrawani, W. et al. "The Role of Digital Payments in Driving Regional Economic ' +
+      'Growth: A Panel Data Analysis with Structural Break." arXiv:2508.02119, August 2025. ' +
+      'https://arxiv.org/abs/2508.02119',
+      'Ministry of Finance, Government of India. Economic Survey 2025-26, Statistical ' +
+      'Appendix. https://www.indiabudget.gov.in/economicsurvey/',
     ],
   },
 ];

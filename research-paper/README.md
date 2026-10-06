@@ -1,6 +1,6 @@
 # UPI, the Velocity of Money and Economic Activity in India
 
-A CBSE Class XII Economics research project (48 pages, A4), written from the
+A CBSE Class XII Economics research project (47 pages, A4), written from the
 synopsis of the same title.
 
 The document opens on the **Index** — there is no title page, certificate,
@@ -17,7 +17,7 @@ Suggestions, and Conclusion, followed by the Glossary and Bibliography.
 | `figures/` | The ten charts, as PNGs at 220 dpi. |
 
 The paper carries its own viva support: a **glossary** defining every technical
-term (p.43), and an **"In one sentence"** call-out closing each of the eight data
+term (p.42), and an **"In one sentence"** call-out closing each of the eight data
 sets, so any exhibit has a ready one-line answer.
 
 ## Rebuilding
