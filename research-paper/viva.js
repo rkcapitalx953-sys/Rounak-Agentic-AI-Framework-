@@ -48,17 +48,18 @@ const VIVA = [
   {
     t: 'keypoint', label: 'Say this',
     text:
-      'My project asks whether UPI has changed the speed at which money circulates in India. ' +
-      'UPI grew from about 2 crore transactions in FY 2016-17 to over 24,000 crore in FY 2025-26. ' +
-      'But the interesting part is not the size — it is that the average payment got smaller, ' +
-      'from about ₹1,838 to ₹1,300. That tells me UPI did not just digitise payments that ' +
-      'already existed; it added new, very small everyday payments. Using Fisher’s equation of ' +
-      'exchange, more transactions on the same money stock means a higher velocity of money. I ' +
-      'also found that the value settled over UPI rose from about half of India’s GDP to about ' +
-      'nine-tenths of it in three years. On economic activity my conclusion is more cautious: ' +
-      '57 per cent of small merchants reported higher sales after adopting digital payment, ' +
-      'which is suggestive, but I cannot prove UPI caused it because smartphones, internet and ' +
-      'incomes all rose in the same decade.',
+      'My project asks whether UPI has changed the speed at which money moves around ' +
+      'in India. UPI grew from about 2 crore payments in FY 2016-17 to over 24,000 ' +
+      'crore in FY 2025-26. But the size is not the interesting part. The interesting ' +
+      'part is that the average payment got smaller, from about ₹1,838 to ₹1,300. ' +
+      'That tells me UPI did not just digitise payments that already existed. It ' +
+      'added new, very small everyday payments. Using Fisher\'s equation, more ' +
+      'transactions on the same stock of money means higher velocity. I also found ' +
+      'that the value settled over UPI rose from about half of India\'s GDP to about ' +
+      'nine-tenths of it in three years. On economic activity I am more careful. 57 ' +
+      'per cent of small shopkeepers reported higher sales after taking up digital ' +
+      'payment, which points one way. But I cannot prove UPI caused it, because ' +
+      'smartphones, internet and incomes all rose in the same decade.',
   },
   {
     t: 'p', text:
@@ -71,8 +72,8 @@ const VIVA = [
   {
     t: 'keypoint', label: 'Say this',
     text:
-      'UPI made very small payments worth making, and because there are now far more payments ' +
-      'on roughly the same stock of money, money circulates faster.',
+      'UPI made very small payments worth making. Because there are now far more ' +
+      'payments on roughly the same stock of money, money moves around faster.',
   },
   { t: 'pb' },
 
@@ -159,189 +160,207 @@ const VIVA = [
   {
     t: 'qa',
     q: 'Why did you choose this topic?',
-    a: 'Because I use UPI every day and wanted to know whether something that changed my own ' +
-       'habits had changed the economy. The velocity of money is a concept from the syllabus that ' +
-       'nobody can observe directly, and UPI gave me a way to look at it with real published data.',
+    a: 'Because I use UPI every day, and I wanted to know if something that changed my ' +
+       'own habits had changed the economy too. The velocity of money is a concept ' +
+       'from our syllabus that nobody can see directly. UPI gave me a way to look at ' +
+       'it with real published data.',
   },
   {
     t: 'qa',
     q: 'What exactly is your research question?',
-    a: 'Two questions. First, has UPI changed the speed at which money circulates? Second, can any ' +
-       'effect on real economic activity be identified from published data? I answer the first ' +
-       'more confidently than the second, and the paper says so.',
+    a: 'There are two questions. First, has UPI changed the speed at which money moves ' +
+       'around in India? Second, can I find any effect on real economic activity in ' +
+       'published data? I answer the first one more confidently than the second, and I ' +
+       'say so in the paper.',
   },
   {
     t: 'qa',
     q: 'What is new in your project? Everyone knows UPI grew.',
-    a: 'Agreed — the growth is not the finding. My contribution is the average transaction size in ' +
-       'Table 2. That figure is not published anywhere; I derived it by dividing annual value by ' +
-       'annual volume. It falls from ₹1,838 to ₹1,300, and that decline is what distinguishes ' +
-       '"UPI added new payments" from "UPI digitised old ones".',
+    a: 'I agree, the growth is not my finding. My own contribution is the average ' +
+       'payment size in Table 2. That figure is not published anywhere. I worked it ' +
+       'out by dividing yearly value by yearly volume. It falls from ₹1,838 to ₹1,300, ' +
+       'and that fall is what separates "UPI added new payments" from "UPI just ' +
+       'digitised old ones".',
   },
   {
     t: 'qa',
     q: 'What period does your study cover, and why?',
-    a: 'FY 2016-17 to FY 2025-26. FY 2016-17 is UPI’s first full year, and FY 2025-26 was the most ' +
-       'recent complete year when I wrote. Ten full years also lets me look at two shocks — ' +
-       'demonetisation and COVID-19.',
+    a: 'FY 2016-17 to FY 2025-26. FY 2016-17 was UPI\'s first full year, and FY 2025-26 ' +
+       'was the latest year with complete data when I wrote. Ten years also lets me ' +
+       'look at two big shocks, demonetisation and COVID-19.',
   },
 
   { t: 'h2', text: 'B.  Concepts' },
   {
     t: 'qa',
     q: 'What is the velocity of money?',
-    a: 'The average number of times one unit of currency is used to buy goods and services in a ' +
-       'given period. It is a behavioural property, not a physical one — it describes how quickly ' +
-       'people part with money they hold.',
+    a: 'It is the average number of times one rupee is used to buy goods and services ' +
+       'in a given period. It is not a physical quality of money. It just shows how ' +
+       'quickly people spend what they hold.',
   },
   {
     t: 'qa',
     q: 'State the equation of exchange and explain each term.',
-    a: 'M × V = P × T. M is the money stock, V is transactions velocity, P is the average price ' +
-       'level, T is the volume of transactions. It is an identity — true by construction, not an ' +
-       'assumption. Its use is that if M is roughly fixed and T rises, V must have risen.',
+    a: 'M × V = P × T. M is the money stock, V is velocity, P is the average price ' +
+       'level and T is the number of transactions. It is an identity, which means it ' +
+       'is true by definition and not an assumption. Its use is that if M stays the ' +
+       'same and T goes up, then V must have gone up.',
   },
   {
     t: 'qa',
     q: 'What is the Cambridge approach, and how does it relate to velocity?',
-    a: 'It writes M = k × P × Y, where k is the fraction of income people hold as money. Velocity ' +
-       'is the reciprocal of k, so V = 1 ÷ k. A rise in velocity and a fall in k are the same ' +
-       'statement. This is the version I actually use, because UPI works by reducing how much ' +
-       'cash people need to keep on hand.',
+    a: 'It writes M = k × P × Y, where k is the share of income people keep as money. ' +
+       'Velocity is one divided by k. So a rise in velocity and a fall in k are the ' +
+       'same statement. This is the version I actually use, because UPI works by ' +
+       'letting people keep less cash in hand.',
   },
   {
     t: 'qa',
     q: 'What is UPI, in one sentence?',
-    a: 'A common standard, launched in 2016, that lets any bank account be paid from any app ' +
-       'through a single virtual payment address — instantly, at any hour, at no cost to the user.',
+    a: 'It is a common set of rules, launched in 2016, that lets any bank account be ' +
+       'paid from any app using one short address. It is instant, works all day, and ' +
+       'is free for the user.',
   },
   {
     t: 'qa',
     q: 'What is NPCI, and why does it matter that it is not-for-profit?',
-    a: 'The National Payments Corporation of India built and runs UPI under RBI guidance. Because ' +
-       'it is not obliged to maximise a return on the switch itself, transactions can be routed at ' +
-       'or near cost — which is why UPI is free and card payments are not.',
+    a: 'NPCI is the National Payments Corporation of India. It built UPI and runs it, ' +
+       'under RBI guidance. Because it is not-for-profit, it does not have to make a ' +
+       'profit on the system itself. That is why UPI is free and card payments are ' +
+       'not.',
   },
   {
     t: 'qa',
     q: 'What is interoperability and why was it decisive?',
-    a: 'It means a user of one app can pay a user of any other. Before UPI, wallets were closed ' +
-       'loops — money in one could not reach another. The IMF studied UPI and found ' +
-       'interoperability drove adoption, because users could join through a brand they trusted and ' +
-       'later switch, which forced every provider to improve.',
+    a: 'It means a user of one app can pay a user of any other app. Before UPI, ' +
+       'wallets were closed loops, so money in one could not reach another. The IMF ' +
+       'studied UPI and found that interoperability drove its growth. Users could join ' +
+       'through a brand they trusted and switch later, so every company had to keep ' +
+       'improving.',
   },
   {
     t: 'qa',
     q: 'Why did cards never achieve what UPI did?',
-    a: 'Cost of acceptance. A card terminal costs money and the merchant pays a discount rate on ' +
-       'every sale, which does not work on a ₹20 margin. A printed QR code costs nothing and, ' +
-       'below ₹2,000, carries no fee at all.',
+    a: 'Because of the cost of accepting them. A card machine costs money, and the ' +
+       'shopkeeper pays a fee on every sale. That does not work on a ₹20 margin. A ' +
+       'printed QR code costs nothing, and below ₹2,000 there is no fee at all.',
   },
   {
     t: 'qa',
     q: 'What is the difference between nominal and real GDP, and which did you use?',
-    a: 'Nominal GDP is measured at current prices, so it includes inflation; real GDP is at ' +
-       'constant prices. I used nominal GDP in Table 4, because UPI transaction value is also in ' +
-       'current rupees — both sides of the ratio must be measured the same way.',
+    a: 'Nominal GDP is measured at current prices, so it includes inflation. Real GDP ' +
+       'is at constant prices. I used nominal GDP in Table 4, because UPI value is ' +
+       'also in current rupees. Both sides of a ratio have to be measured the same ' +
+       'way.',
   },
 
   { t: 'h2', text: 'C.  Method' },
   {
     t: 'qa',
     q: 'What kind of data did you use?',
-    a: 'Entirely secondary data — published statistics from RBI, NPCI, PIB, MoSPI and TRAI, plus ' +
-       'research from the IMF, BIS and World Bank.',
+    a: 'Only secondary data. I used published figures from RBI, NPCI, PIB, MoSPI and ' +
+       'TRAI, plus research from the IMF, BIS and World Bank.',
   },
   {
     t: 'qa',
     q: 'Why did you not conduct a primary survey?',
-    a: 'Because the thing I am studying is national in scale and is already measured ' +
-       'comprehensively by the institutions that run it. A survey I could realistically conduct ' +
-       'would be too small to be representative, and could not improve on RBI and NPCI data.',
+    a: 'Because what I am studying is national in size, and it is already measured in ' +
+       'full by the bodies that run it. Any survey I could actually do would be too ' +
+       'small to stand for the country, and it could not improve on RBI and NPCI data.',
   },
   {
     t: 'qa',
     q: 'How did you make sure your sources were reliable?',
-    a: 'I took every number from the institution that produced it rather than from news or ' +
-       'commercial websites, and each figure carries a bracketed reference to the Bibliography so ' +
-       'it can be checked.',
+    a: 'I took every number from the body that produced it, not from news or ' +
+       'commercial websites. Each figure has a number in brackets pointing to the ' +
+       'Bibliography, so anyone can check it.',
   },
   {
     t: 'qa',
     q: 'Which figures are your own calculations?',
-    a: 'Two. The average value per transaction in Table 2, and UPI turnover as a multiple of GDP ' +
-       'in Table 4. Both derivations are stated under their tables so anyone can reproduce them.',
+    a: 'Two of them. The average value per payment in Table 2, and UPI turnover as a ' +
+       'multiple of GDP in Table 4. I have written both methods under the tables so ' +
+       'anyone can repeat them.',
   },
   {
     t: 'qa',
     q: 'What are the limitations of your study?',
-    a: 'Seven are listed on page 11. The three that matter most: it is all secondary data; ' +
-       'correlation is not causation, since smartphones and incomes rose alongside UPI; and ' +
-       'velocity cannot be measured directly, so Table 4 is a proxy rather than a measurement.',
+    a: 'I list seven on page 11. The three that matter most are these. It is all ' +
+       'secondary data. Correlation is not causation, because smartphones and incomes ' +
+       'rose alongside UPI. And velocity cannot be measured directly, so Table 4 is an ' +
+       'approximation and not a measurement.',
   },
   {
     t: 'qa',
     q: 'What were your hypotheses?',
-    a: 'Three. H1 — transactions velocity has risen. H2 — UPI added genuinely new small payments ' +
-       'rather than only migrating old ones. H3 — the gains are unevenly distributed between rural ' +
-       'and urban India. All three are supported, H1 with a qualification.',
+    a: 'Three. H1 says transactions velocity has gone up. H2 says UPI added genuinely ' +
+       'new small payments, not just old ones moving across. H3 says the gains are ' +
+       'shared unevenly between rural and urban India. All three are supported, and H1 ' +
+       'with one qualification.',
   },
 
   { t: 'h2', text: 'D.  Findings' },
   {
     t: 'qa',
     q: 'What is your most important finding?',
-    a: 'That the average UPI payment shrank from ₹1,838 to ₹1,300 while volume rose more than ' +
-       'ten-fold. If UPI had only digitised existing payments, average size would have stayed ' +
-       'broadly flat. It fell — so UPI reached transactions it did not previously serve: the tea, ' +
-       'the vegetables, the auto fare.',
+    a: 'That the average UPI payment shrank from ₹1,838 to ₹1,300 while volume rose ' +
+       'more than ten times. If UPI had only digitised payments that already existed, ' +
+       'the average size would have stayed roughly flat. It fell instead. So UPI ' +
+       'reached payments it never served before: the tea, the vegetables, the auto ' +
+       'fare.',
   },
   {
     t: 'qa',
     q: 'Why does a falling average transaction size matter for velocity?',
-    a: 'Because Fisher’s identity is about the number of transactions, not their size. Adding a ' +
-       'very large number of very small payments raises T sharply while adding little to total ' +
-       'value — which is precisely an increase in how often each rupee is used.',
+    a: 'Because Fisher\'s equation is about the number of transactions, not their size. ' +
+       'Adding a very large number of very small payments raises T a lot while adding ' +
+       'little to total value. That is exactly what it means for each rupee to be used ' +
+       'more often.',
   },
   {
     t: 'qa',
     q: 'Did demonetisation cause UPI’s growth?',
-    a: 'It accelerated it but did not cause it. Digital payments rose 56 per cent in the seven ' +
-       'months after November 2016, but about 98.96 per cent of the demonetised notes came back ' +
-       'and cash use recovered. Growth continued for years afterwards at rates far above 2016-17. ' +
-       'Demonetisation removed the effort of trying something new; it did not change the economics.',
+    a: 'It speeded it up, but it did not cause it. Digital payments rose 56 per cent ' +
+       'in the seven months after November 2016. But about 98.96 per cent of the notes ' +
+       'came back, and cash use recovered. Growth carried on for years afterwards at ' +
+       'rates far above 2016-17. Demonetisation removed the effort of trying something ' +
+       'new. It did not change the economics.',
   },
   {
     t: 'qa',
     q: 'Why did UPI grow during COVID-19 when the economy shrank?',
-    a: 'Two forces. Substitution — payments that would have been cash became digital. And ' +
-       'adoption — merchants and customers who had resisted learned because there was no ' +
-       'alternative. Adoption dominated, and I can show that: growth was 78 per cent in FY 2020-21 ' +
-       'but 106 per cent in FY 2021-22. If it had been pure substitution it would have reversed ' +
-       'once shops reopened. It did not.',
+    a: 'Two reasons. One is substitution, where payments that would have been cash ' +
+       'became digital. The other is new users, where shopkeepers and customers who ' +
+       'had resisted learned because there was no choice. New users mattered more, and ' +
+       'I can show it. Growth was 78 per cent in FY 2020-21 but 106 per cent in FY ' +
+       '2021-22. If it had been only substitution, it would have reversed once shops ' +
+       'reopened. It did not.',
   },
   {
     t: 'qa',
     q: 'Why is demonetisation’s effect temporary but COVID’s permanent?',
-    a: 'Duration. Demonetisation removed the alternative for a few months, so people complied and ' +
-       'then reverted. The pandemic lasted long enough for digital payment to become a habit, and ' +
-       'habits survive the removal of the constraint that formed them.',
+    a: 'It comes down to how long each one lasted. Demonetisation took away the ' +
+       'alternative for a few months, so people complied and then went back. The ' +
+       'pandemic lasted long enough for digital payment to become a habit, and habits ' +
+       'stay after the pressure is removed.',
   },
   {
     t: 'qa',
     q: 'Has UPI increased financial inclusion?',
-    a: 'Yes, measurably. The RBI Financial Inclusion Index rose from 64.2 to 67.0 in one year, and ' +
-       'importantly the usage sub-index rose fastest. Access was already largely solved by Jan ' +
-       'Dhan — 55.98 crore accounts. The problem was dormancy, and the World Bank records the share ' +
-       'of Indian women with inactive accounts falling from a third in 2021 to 18 per cent in 2024.',
+    a: 'Yes, and we can measure it. The RBI Financial Inclusion Index rose from 64.2 ' +
+       'to 67.0 in one year, and the usage part rose fastest. Access was already ' +
+       'mostly solved by Jan Dhan, which reached 55.98 crore accounts. The real ' +
+       'problem was accounts lying unused, and the World Bank says the share of Indian ' +
+       'women with inactive accounts fell from a third in 2021 to 18 per cent in 2024.',
   },
   {
     t: 'qa',
     q: 'Has UPI increased GDP?',
-    a: 'I cannot claim that, and I deliberately do not. What I can say is that 57 per cent of small ' +
-       'merchants reported higher sales after adopting digital payment, and that the BIS finds fast ' +
-       'payment systems raise digital finance adoption most in lower-income economies. That is ' +
-       'evidence pointing towards a real effect, not a measurement of one.',
+    a: 'I cannot claim that, and I deliberately do not. What I can say is that 57 per ' +
+       'cent of small shopkeepers reported higher sales after taking up digital ' +
+       'payment. The BIS also finds that fast payment systems raise digital finance ' +
+       'use most in lower-income countries. That is evidence pointing towards a real ' +
+       'effect. It is not a measurement of one.',
   },
   { t: 'pb' },
 
@@ -357,56 +376,60 @@ const VIVA = [
   {
     t: 'qa',
     q: 'Hard 1.  Which velocity have you measured — income or transactions?',
-    a: 'Transactions velocity, and the difference matters. Income velocity counts only payments ' +
-       'for newly produced output, so it moves slowly. Transactions velocity counts every payment, ' +
-       'including transfers between my own accounts and payments between wholesalers. A payment ' +
-       'system acts on transactions velocity directly and on income velocity only indirectly. Most ' +
-       'popular writing confuses the two, so I labelled mine explicitly.',
+    a: 'Transactions velocity, and the difference matters. Income velocity counts only ' +
+       'payments for newly produced output, so it moves slowly. Transactions velocity ' +
+       'counts every payment, including money I send between my own accounts and ' +
+       'payments between wholesalers. A payment system affects transactions velocity ' +
+       'directly and income velocity only indirectly. Most popular writing mixes the ' +
+       'two up, so I labelled mine clearly.',
   },
   {
     t: 'qa',
     q: 'Hard 2.  So does 0.91× mean every rupee circulates 0.91 times a year?',
-    a: 'No, and that is the trap in the number. The top of the ratio counts every payment; the ' +
-       'bottom counts only final output. They are not commensurable, so the level of the ratio is ' +
-       'not meaningful. What is meaningful is the rate of change: the mismatch is broadly constant ' +
-       'year to year, so a rise from 0.52 to 0.91 in three years tells me payment activity grew ' +
-       'much faster than output.',
+    a: 'No, and that is the trap in the number. The top of the ratio counts every ' +
+       'payment. The bottom counts only final output. They are not measuring the same ' +
+       'thing, so the level of the ratio means nothing. What does mean something is ' +
+       'the change. The mismatch stays about the same each year, so a rise from 0.52 ' +
+       'to 0.91 in three years tells me payment activity grew much faster than output.',
   },
   {
     t: 'qa',
     q: 'Hard 3.  Some of the rise is just cash payments becoming visible. Doesn’t that ruin your finding?',
-    a: 'It qualifies it, and I say so in the paper. A cash payment that becomes a UPI payment ' +
-       'raises measured turnover without any change in behaviour, because cash was never counted. ' +
-       'The available data cannot separate that from genuinely new transactions. But Data Set 2 ' +
-       'gives me an independent check: if this were only migration, average payment size would ' +
-       'have held steady. It fell by 29 per cent, so at least part of the rise is genuinely new ' +
-       'activity.',
+    a: 'It qualifies my finding, and I say so in the paper. A cash payment that ' +
+       'becomes a UPI payment raises the measured figure with no change in behaviour, ' +
+       'because cash was never counted. The data cannot separate that from genuinely ' +
+       'new payments. But Data Set 2 gives me a second check. If this were only ' +
+       'migration, the average payment size would have stayed flat. It fell by 29 per ' +
+       'cent. So at least part of the rise is new activity.',
   },
   {
     t: 'qa',
     q: 'Hard 4.  Inflation was positive over your period. Doesn’t that undermine the falling average?',
-    a: 'It strengthens it. Rising prices push the average value of any payment up, so inflation ' +
-       'works against my finding rather than producing it. The average fell anyway — which means ' +
-       'the shift towards small payments is larger in real terms than the nominal figures show.',
+    a: 'It actually strengthens it. Rising prices push the average payment up. So ' +
+       'inflation works against my finding rather than causing it. The average fell ' +
+       'anyway, which means the shift towards small payments is even bigger in real ' +
+       'terms.',
   },
   {
     t: 'qa',
     q: 'Hard 5.  If you cannot prove causation, what have you actually established?',
-    a: 'Three things. That transactions turnover per rupee of output rose sharply — that is ' +
-       'measured, not inferred. That the growth consists of new small payments, not just migrated ' +
-       'ones — that is the average-size evidence. And that the effect on output is supported by ' +
-       'merchant and cross-country evidence but not proved, because smartphones, internet access, ' +
-       'bank accounts and incomes all expanded in the same decade and published aggregates cannot ' +
-       'separate them. Refusing to overclaim is a finding, not a gap.',
+    a: 'Three things. First, that payment turnover per rupee of output rose sharply. ' +
+       'That is measured, not guessed. Second, that the growth is made of new small ' +
+       'payments and not just old ones moving across. That is the average size ' +
+       'evidence. Third, that the effect on output is supported but not proved, ' +
+       'because smartphones, internet, bank accounts and incomes all grew in the same ' +
+       'decade, and published figures cannot separate them. Refusing to claim too much ' +
+       'is itself a finding.',
   },
   {
     t: 'keypoint', label: 'If pressed further on Hard 5',
     text:
-      'To prove causation I would need district-level UPI data and a source of variation — for ' +
-      'example comparing districts where adoption was forced early against otherwise similar ' +
-      'ones. The IMF did something like this and found faster growth where interoperability ' +
-      'helped most. That data is not published, which is why one of my six suggestions is that ' +
-      'disaggregated payment statistics should be released.',
+      'To prove cause and effect I would need UPI data by district, and something ' +
+      'that varied between them. For example, comparing districts where adoption was ' +
+      'forced early with similar ones where it was not. The IMF did something like ' +
+      'this and found faster growth where interoperability helped most. That data is ' +
+      'not published, which is why one of my suggestions is that it should be ' +
+      'released.',
   },
   { t: 'pb' },
 
@@ -416,64 +439,69 @@ const VIVA = [
   {
     t: 'qa',
     q: 'Is UPI being free a good thing? Someone must be paying.',
-    a: 'The exchequer pays, through incentive schemes worth about ₹1,500 crore for low-value ' +
-       'merchant transactions. Whether that is worth it depends on whether the gains in ' +
-       'formalisation, inclusion and tax visibility exceed the outlay — which is why one of my ' +
-       'suggestions is that the scheme should be evaluated publicly and periodically.',
+    a: 'The Government pays, through incentive schemes worth about ₹1,500 crore for ' +
+       'small merchant payments. Whether that is worth it depends on whether the gains ' +
+       'in recorded activity, inclusion and tax collection are bigger than the ' +
+       'spending. That is why one of my suggestions is that the scheme should be ' +
+       'reviewed publicly from time to time.',
   },
   {
     t: 'qa',
     q: 'What are the risks of a cashless economy?',
-    a: 'Three. Infrastructure dependence — a digital payment needs power, a device and a network ' +
-       'at the same time, and cash needs none of them, so an outage stops commerce. Fraud — cyber ' +
-       'incidents doubled from 10.29 to 22.68 lakh between 2022 and 2024. And exclusion — a system ' +
-       'reachable only through the internet cannot be more inclusive than internet access itself.',
+    a: 'There are three. Dependence on infrastructure, because a digital payment needs ' +
+       'power, a device and a network at the same time, and cash needs none of them. ' +
+       'Fraud, with cyber incidents doubling from 10.29 lakh to 22.68 lakh between ' +
+       '2022 and 2024. And exclusion, because a system that needs the internet cannot ' +
+       'include more people than the internet does.',
   },
   {
     t: 'qa',
     q: 'Is UPI secure?',
-    a: 'The technology is strong — device binding, a compulsory PIN, and machine-learning fraud ' +
-       'monitoring that declines suspicious transactions. The weak point is the user, who can be ' +
-       'talked into authorising a payment. That is why my suggestion is fraud awareness delivered ' +
-       'inside the apps in regional languages, rather than more technical security.',
+    a: 'The technology is strong. The app is tied to one device, a PIN is needed, and ' +
+       'machine learning blocks suspicious payments. The weak point is the user, who ' +
+       'can be talked into approving a payment. That is why my suggestion is fraud ' +
+       'awareness inside the apps in regional languages, rather than more technical ' +
+       'security.',
   },
   {
     t: 'qa',
     q: 'Does UPI make people overspend?',
-    a: 'The evidence suggests it can. In one survey about 75 per cent of users reported spending ' +
-       'more, many saying digital money felt less tangible than cash. It is a real cost, ' +
-       'especially for low-income households, and I treat it as one — the same frictionlessness ' +
-       'that raises velocity removes a restraint cash imposed without anyone designing it.',
+    a: 'The evidence suggests it can. In one survey about 75 per cent of users said ' +
+       'they spent more, and many said digital money felt less real than cash. It is a ' +
+       'real cost, especially for low-income families. I treat it as one. The same ' +
+       'ease that raises velocity also removes a restraint that cash gave by accident.',
   },
   {
     t: 'qa',
     q: 'Why is rural adoption behind? Is it a lack of QR codes?',
-    a: 'No — that is the point of Data Set 8. Over 5.45 crore acceptance touch points have been ' +
-       'deployed in tier-3 to tier-6 centres. The constraint is connectivity: rural internet is ' +
-       '46.73 subscribers per 100 people against an urban 113.83. So extending broadband is a more ' +
-       'effective payments policy at the margin than more acceptance subsidy.',
+    a: 'No, and that is the point of Data Set 8. Over 5.45 crore payment points have ' +
+       'been set up in tier-3 to tier-6 centres. The problem is connectivity. Rural ' +
+       'internet is 46.73 subscribers per 100 people against 113.83 in urban areas. So ' +
+       'spreading broadband would help more now than paying for more QR codes.',
   },
   {
     t: 'qa',
     q: 'India has 49 per cent of the world’s real-time payments. Isn’t that just population?',
-    a: 'Partly, and I say so. Volume share is not a measure of quality. What makes it notable is ' +
-       'the policy difference: most fast payment systems abroad charge merchants, and India ' +
-       'chose not to. The adoption is partly a consequence of treating payment as a public utility.',
+    a: 'Partly, and I say so. A share of volume says nothing about quality. What makes ' +
+       'it notable is the policy difference. Most fast payment systems abroad charge ' +
+       'shopkeepers, and India chose not to. So the growth is partly a result of ' +
+       'treating payment as a public service.',
   },
   {
     t: 'qa',
     q: 'What would you do differently or study next?',
-    a: 'I would want district-level data to examine regional variation, which national aggregates ' +
-       'hide completely. If I extended the project, I would look at whether the payment record ' +
-       'itself is changing credit access for small traders through the Unified Lending Interface — ' +
-       'that is where a payment effect would turn into an investment effect.',
+    a: 'I would want data by district, because national figures hide regional ' +
+       'differences completely. If I carried the project further, I would look at ' +
+       'whether the payment record is changing credit access for small traders through ' +
+       'the Unified Lending Interface. That is where a payment effect would turn into ' +
+       'an investment effect.',
   },
   {
     t: 'qa',
     q: 'Did you write this yourself?',
-    a: 'Yes. Answer plainly, then show it: name the two calculations you derived, say why you ' +
-       'chose nominal rather than real GDP, and explain the base-year break in Table 4. Nobody who ' +
-       'has not engaged with the material can do that.',
+    a: 'Yes. Say it plainly, then show it. Name the two figures you calculated, say ' +
+       'why you chose nominal GDP and not real GDP, and explain the base year break in ' +
+       'Table 4. Nobody who has not worked with the material can do that.',
   },
   { t: 'pb' },
 
@@ -516,19 +544,19 @@ const VIVA = [
   {
     t: 'keypoint', label: 'The one habit that matters',
     text:
-      'Whenever you state a number, say where it came from — RBI, NPCI, PIB, TRAI, the IMF. It ' +
-      'takes three extra words, it demonstrates the project is genuinely researched, and it makes ' +
-      'every answer harder to challenge.',
+      'Whenever you give a number, say where it came from: RBI, NPCI, PIB, TRAI or ' +
+      'the IMF. It takes three extra words. It shows the project is really ' +
+      'researched, and it makes every answer harder to argue with.',
   },
 
   { t: 'h2', text: 'The last thing to read before you go in' },
   {
     t: 'keypoint', label: 'Remember',
     text:
-      'UPI grew from 2 crore to 24,162 crore transactions. The average payment fell from ₹1,838 ' +
-      'to ₹1,300. Value settled rose from 0.52 to 0.91 times GDP. Small payments got added, so ' +
-      'money moves faster. On output, the evidence is suggestive and I do not overclaim. ' +
-      'Everything else is detail.',
+      'UPI grew from 2 crore to 24,162 crore payments. The average payment fell from ' +
+      '₹1,838 to ₹1,300. Value settled rose from 0.52 to 0.91 times GDP. Small ' +
+      'payments got added, so money moves faster. On output, the evidence points one ' +
+      'way but I do not overclaim. Everything else is detail.',
   },
 ];
 

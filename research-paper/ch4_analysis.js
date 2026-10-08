@@ -7,18 +7,17 @@ const CH4_ANALYSIS = [
   },
   {
     t: 'p',
-    text: 'This chapter contains the original analysis of the project. Eight data sets are ' +
-      'examined. Each one follows the same four-part structure used throughout: the table ' +
-      'or graph, an explanation of what the data show, an analysis of what they mean, and ' +
-      'an interpretation saying what can and cannot be concluded. Ten figures and eight ' +
-      'tables support the discussion, and each data set ends with one sentence summing up ' +
-      'its result.',
+    text: 'This chapter has the main analysis of my project. I look at eight data sets. Each ' +
+      'one follows the same four-part pattern: the table or graph, an explanation of what ' +
+      'the data show, an analysis of what they mean, and an interpretation of what can and ' +
+      'cannot be concluded. There are ten figures and eight tables. Each data set ends with ' +
+      'one sentence summing up the result.',
   },
   {
     t: 'p',
-    text: 'The first four data sets look at growth, composition and velocity. Data Sets 5 and 6 ' +
-      'test the two big shocks of the period. Data Sets 7 and 8 look at financial inclusion ' +
-      'and at its limits. Together they test the three hypotheses given in Section 2.2.',
+    text: 'The first four data sets look at growth, size of payments and velocity. Data Sets 5 ' +
+      'and 6 test the two big shocks of the period. Data Sets 7 and 8 look at financial ' +
+      'inclusion and its limits. Together they test the three hypotheses from Section 2.2.',
   },
   {
     t: 'h2',
@@ -61,11 +60,10 @@ const CH4_ANALYSIS = [
   },
   {
     t: 'p',
-    text: 'The table shows the number and value of UPI transactions in each financial year ' +
-      'since the platform started. It also gives the year-on-year growth rates, which I ' +
-      'calculated from those two columns. Volume rose from 2 crore transactions to 24,162 ' +
-      'crore. Value rose from ₹0.07 lakh crore to about ₹314 lakh crore. Both changes ' +
-      'happened over ten years [2].',
+    text: 'The table shows the number and value of UPI payments in each financial year since ' +
+      'UPI started. It also gives the growth rates, which I worked out from those two ' +
+      'columns. Volume rose from 2 crore payments to 24,162 crore. Value rose from ₹0.07 ' +
+      'lakh crore to about ₹314 lakh crore. Both of these happened over ten years [2].',
   },
   {
     t: 'h4',
@@ -73,24 +71,24 @@ const CH4_ANALYSIS = [
   },
   {
     t: 'p',
-    text: 'Three patterns stand out. The first is that growth rates are slowing in percentage ' +
-      'terms, from 4,500 per cent down to 30 per cent. But the actual increase each year ' +
-      'keeps getting bigger. The rise in FY 2025-26 alone was about 5,575 crore ' +
-      'transactions, which is more than the entire volume of FY 2021-22. This is just what ' +
-      'happens as a base grows larger. It should not be read as a real slowdown.',
+    text: 'Three patterns stand out. The first is that the growth rate is slowing in percentage ' +
+      'terms, from 4,500 per cent down to 30 per cent. But the actual rise each year keeps ' +
+      'getting bigger. The rise in FY 2025-26 alone was about 5,575 crore payments. That is ' +
+      'more than the whole of FY 2021-22. This is simply what happens when a base gets ' +
+      'larger. It does not mean UPI is really slowing down.',
   },
   {
     t: 'p',
-    text: 'The second is that the growth never flattens out. Ten years of rising volume, ' +
-      'through a pandemic and long after the novelty wore off, points to a lasting change ' +
-      'in how people pay rather than a passing fashion.',
+    text: 'The second is that the growth never flattens out. Volume rose for ten years in a ' +
+      'row, through a pandemic and long after the novelty wore off. That points to a ' +
+      'lasting change in how people pay, not a passing trend.',
   },
   {
     t: 'p',
     text: 'The third pattern matters most. Volume has grown faster than value in every year ' +
       'since FY 2021-22. In FY 2025-26 volume grew 30 per cent while value grew 20 per ' +
-      'cent. The average size of a transaction is value divided by volume, so if volume ' +
-      'grows faster, the average payment must be getting smaller. Data Set 2 looks at this ' +
+      'cent. The average size of a payment is value divided by volume. So if volume grows ' +
+      'faster, the average payment must be getting smaller. Data Set 2 looks at this ' +
       'directly.',
   },
   {
@@ -99,18 +97,18 @@ const CH4_ANALYSIS = [
   },
   {
     t: 'p',
-    text: 'UPI has gone from an experiment to the normal way India pays in shops, and it now ' +
-      'handles most retail digital transactions. The gap between volume growth and value ' +
-      'growth is the first sign of something more. It suggests UPI is not simply taking ' +
-      'over payments that already existed in another form. It is reaching very small ' +
-      'payments that were previously made in cash, or not made at all. Hypothesis H1 is ' +
-      'supported so far as a description. Its effect on velocity is tested in Data Set 4.',
+    text: 'UPI has gone from an experiment to the normal way India pays in shops. It now ' +
+      'handles most retail digital payments. The gap between volume growth and value growth ' +
+      'is the first sign of something more. It suggests UPI is not just taking over ' +
+      'payments that already existed. It is reaching very small payments that used to be ' +
+      'made in cash, or were not made at all. So H1 is supported as a description. Its ' +
+      'effect on velocity is tested in Data Set 4.',
   },
   {
     t: 'keypoint',
-    text: 'UPI grew from 2 crore transactions to 24,162 crore in ten years, and because volume ' +
-      'grew faster than value in every year from FY 2021-22, the typical payment was ' +
-      'getting smaller even as the total kept rising.',
+    text: 'UPI grew from 2 crore payments to 24,162 crore in ten years. Volume grew faster than ' +
+      'value in every year from FY 2021-22, so the typical payment was getting smaller even ' +
+      'as the total kept rising.',
   },
   {
     t: 'h2',
@@ -147,11 +145,11 @@ const CH4_ANALYSIS = [
   },
   {
     t: 'p',
-    text: 'This figure is not published anywhere. I worked it out by dividing each year\'s ' +
-      'transaction value by its volume. It answers a simple question: how big is a typical ' +
-      'UPI payment, and is that changing? The answer rises from ₹1,196 in FY 2017-18 to a ' +
-      'peak of ₹1,838 in FY 2020-21. It then falls steadily to ₹1,300 in FY 2025-26, a drop ' +
-      'of about 29 per cent from the peak.',
+    text: 'This figure is not published anywhere. I worked it out by dividing each year\'s value ' +
+      'by its volume. It answers a simple question: how big is a typical UPI payment, and ' +
+      'is that changing? The answer rises from ₹1,196 in FY 2017-18 to a peak of ₹1,838 in ' +
+      'FY 2020-21. After that it falls steadily to ₹1,300 in FY 2025-26. That is a drop of ' +
+      'about 29 per cent from the peak.',
   },
   {
     t: 'h4',
@@ -159,31 +157,30 @@ const CH4_ANALYSIS = [
   },
   {
     t: 'p',
-    text: 'The shape of this curve tells the story of UPI\'s adoption in two clear phases.',
+    text: 'The shape of this curve shows UPI\'s growth in two clear phases.',
   },
   {
     t: 'p',
     text: 'In the first phase, up to FY 2020-21, the average payment grew. This is what you ' +
-      'would expect when the early users are better off, live in cities and are comfortable ' +
-      'with technology. The payments moving onto UPI at that stage were large ones, such as ' +
-      'rent, fees and transfers between family members, which used to be made by cheque or ' +
-      'bank transfer.',
+      'would expect when the early users are better off, live in cities and are used to ' +
+      'technology. The payments moving onto UPI then were large ones, such as rent, fees ' +
+      'and money sent to family. These used to be paid by cheque or bank transfer.',
   },
   {
     t: 'p',
     text: 'In the second phase the average falls, every year, for five years. Total value kept ' +
-      'rising throughout, so this cannot mean people were spending less. It can only mean ' +
-      'that the new payments being added were much smaller than the existing average, and ' +
-      'that there were enough of them to pull the average down. The composition data ' +
-      'confirms this. Person-to-merchant payments are now 63 per cent of all UPI volume, ' +
-      'and 86 per cent of those are below ₹500 [2].',
+      'rising all through. So this cannot mean people were spending less. It can only mean ' +
+      'the new payments being added were much smaller than the old average, and that there ' +
+      'were enough of them to pull the average down. The data on payment types confirms ' +
+      'this. Person-to-merchant payments are now 63 per cent of all UPI volume, and 86 per ' +
+      'cent of those are below ₹500 [2].',
   },
   {
     t: 'p',
     text: 'Inflation works against this finding rather than causing it. Prices rose over the ' +
-      'period, so the same basket of goods would show a rising average payment. The fact ' +
-      'that the average fell anyway means the shift towards small payments is even larger ' +
-      'in real terms than it looks.',
+      'period. So the same basket of goods would show a rising average payment. The average ' +
+      'fell anyway. That means the shift towards small payments is even bigger in real ' +
+      'terms than it looks.',
   },
   {
     t: 'h4',
@@ -191,26 +188,25 @@ const CH4_ANALYSIS = [
   },
   {
     t: 'p',
-    text: 'This is the most important finding in the project, because it separates the two ' +
+    text: 'I think this is the most important finding in my project. It separates the two ' +
       'possible explanations of UPI\'s growth. If UPI had only digitised payments that ' +
-      'already existed, the average payment size would have stayed roughly flat while ' +
-      'volume rose. Instead it fell by nearly a third while volume multiplied thirteen ' +
-      'times. That is the mark of a payment system reaching transactions it never served ' +
-      'before: the tea, the vegetables, the auto fare.',
+      'already existed, the average payment would have stayed roughly flat while volume ' +
+      'rose. Instead it fell by nearly a third while volume grew thirteen times. That is ' +
+      'the sign of a payment system reaching payments it never served before: the tea, the ' +
+      'vegetables, the auto fare.',
   },
   {
     t: 'p',
     text: 'This matters directly for velocity. Fisher\'s equation links the money stock to the ' +
       'number of transactions it supports. A system that adds a very large number of very ' +
-      'small payments raises T a lot while adding relatively little to the total value ' +
-      'settled. That is exactly what it means for each rupee to be used more often. ' +
-      'Hypothesis H2 is supported.',
+      'small payments raises T a lot, while adding fairly little to the total value. That ' +
+      'is exactly what it means for each rupee to be used more often. So H2 is supported.',
   },
   {
     t: 'keypoint',
-    text: 'The average UPI payment fell from ₹1,838 to ₹1,300 while volume rose more than ' +
-      'ten-fold, which is the signature of a system adding small everyday payments rather ' +
-      'than merely digitising ones that already existed.',
+    text: 'The average UPI payment fell from ₹1,838 to ₹1,300 while volume rose more than ten ' +
+      'times. That is the sign of a system adding small everyday payments, not just ' +
+      'digitising ones that already existed.',
   },
   {
     t: 'h2',
@@ -241,10 +237,10 @@ const CH4_ANALYSIS = [
   },
   {
     t: 'p',
-    text: 'This data set places UPI within all digital payments in India, including cards, ' +
+    text: 'This data set puts UPI inside all digital payments in India. That includes cards, ' +
       'wallets, NEFT, IMPS and RTGS. Total digital payment volume rose from 2,071 crore ' +
-      'transactions in FY 2017-18 to 18,737 crore in FY 2023-24, a compound growth rate of ' +
-      '44 per cent a year. Value grew from ₹1,962 lakh crore to ₹3,659 lakh crore, a ' +
+      'payments in FY 2017-18 to 18,737 crore in FY 2023-24. That is a compound growth rate ' +
+      'of 44 per cent a year. Value grew from ₹1,962 lakh crore to ₹3,659 lakh crore, a ' +
       'compound rate of 11 per cent [10], [11]. UPI alone made up 81 per cent of retail ' +
       'digital payment volume in FY 2024-25 [14].',
   },
@@ -254,25 +250,25 @@ const CH4_ANALYSIS = [
   },
   {
     t: 'p',
-    text: 'The difference between those two growth rates, 44 per cent for volume against 11 per ' +
-      'cent for value, repeats across the whole payment system the pattern found in UPI ' +
-      'alone. India\'s digital payments have grown mainly through more payments being made, ' +
-      'not through bigger ones.',
+    text: 'The gap between those two growth rates is 44 per cent for volume against 11 per cent ' +
+      'for value. This repeats, across the whole payment system, the same pattern I found ' +
+      'in UPI alone. India\'s digital payments have grown mainly because more payments are ' +
+      'being made, not because payments are bigger.',
   },
   {
     t: 'p',
     text: 'The value figures need care. Total digital payment value of ₹3,659 lakh crore is far ' +
-      'larger than India\'s GDP. That is because it includes RTGS, which carries very large ' +
-      'transfers between banks and big companies. There are not many of these, but each is ' +
-      'enormous. This shows clearly why payment value cannot be treated as economic output, ' +
-      'and why the ratio in Data Set 4 has to be called a transactions measure rather than ' +
-      'income velocity.',
+      'bigger than India\'s GDP. That is because it includes RTGS, which carries very large ' +
+      'transfers between banks and big companies. There are not many of these, but each one ' +
+      'is huge. This shows clearly why payment value cannot be treated as economic output. ' +
+      'It is also why the ratio in Data Set 4 has to be called a transactions measure and ' +
+      'not income velocity.',
   },
   {
     t: 'p',
-    text: 'There is no contradiction in UPI carrying 81 per cent of retail transactions by ' +
-      'number while total value is dominated by large wholesale systems. It simply ' +
-      'describes what UPI is: the system for frequent, small, everyday payments.',
+    text: 'There is no contradiction in UPI carrying 81 per cent of retail payments by number ' +
+      'while total value is dominated by large wholesale systems. It just describes what ' +
+      'UPI is. It is the system for frequent, small, everyday payments.',
   },
   {
     t: 'h4',
@@ -280,15 +276,15 @@ const CH4_ANALYSIS = [
   },
   {
     t: 'p',
-    text: 'UPI is not one choice among several in Indian retail payments. It is the system, ' +
-      'with everything else sharing the remaining fifth. For this study, that means changes ' +
-      'in retail payment behaviour over the period can fairly be linked to UPI, because no ' +
-      'alternative is large enough to drive the national figures.',
+    text: 'UPI is not one choice among several in Indian retail payments. It is the system, and ' +
+      'everything else shares the remaining fifth. For this study, that means changes in ' +
+      'how India pays can fairly be linked to UPI, because nothing else is big enough to ' +
+      'move the national figures.',
   },
   {
     t: 'keypoint',
-    text: 'UPI carries 81 per cent of India\'s retail digital transactions, so changes in retail ' +
-      'payment behaviour during this period can reasonably be attributed to it.',
+    text: 'UPI carries 81 per cent of India\'s retail digital payments. So changes in how people ' +
+      'pay during this period can fairly be linked to it.',
   },
   {
     t: 'h2',
@@ -324,8 +320,8 @@ const CH4_ANALYSIS = [
     text: 'This data set builds the closest thing to a velocity measure that public data ' +
       'allows. It shows the total value settled over UPI in a year as a multiple of nominal ' +
       'GDP in the same year. The ratio rose from 0.52 in FY 2022-23 to 0.91 in FY 2025-26. ' +
-      'By the latest year, the value passing through UPI alone came close to the entire ' +
-      'annual output of the Indian economy.',
+      'By the latest year, the value passing through UPI alone came close to the whole ' +
+      'yearly output of the Indian economy.',
   },
   {
     t: 'h4',
@@ -333,36 +329,36 @@ const CH4_ANALYSIS = [
   },
   {
     t: 'p',
-    text: 'It is important to say exactly what this ratio does and does not measure, because it ' +
-      'would be easy to claim too much from it.',
+    text: 'I need to say exactly what this ratio does and does not measure. It would be easy to ' +
+      'claim too much from it.',
   },
   {
     t: 'p',
     text: 'It is a measure of transactions turnover, not income velocity. The top of the ratio ' +
-      'counts every payment, including transfers between people that do not buy anything ' +
-      'newly produced, and payments between businesses that GDP counts only once at the ' +
+      'counts every payment. That includes transfers between people, which do not buy ' +
+      'anything new, and payments between businesses, which GDP counts only once at the ' +
       'final sale. The bottom counts final output only. The two are not measuring the same ' +
-      'thing, so the number should not be read as "each rupee now circulates 0.91 times".',
+      'thing. So the number should not be read as "each rupee now circulates 0.91 times".',
   },
   {
     t: 'p',
     text: 'What the ratio does measure reliably is the direction and speed of change. The ' +
-      'mismatch between the top and the bottom stays roughly the same from year to year, so ' +
-      'the comparison between years is still fair. On that basis the ratio rose by about 75 ' +
-      'per cent in three years. The value settled through this one retail system grew far ' +
-      'faster than national output. Payment activity per unit of output has clearly ' +
-      'increased, which is what the Cambridge version predicts: as paying gets cheaper, ' +
-      'people hold less money against a given amount of spending, so turnover rises.',
+      'mismatch between the top and the bottom stays roughly the same each year. So ' +
+      'comparing one year with another is still fair. On that basis the ratio rose by about ' +
+      '75 per cent in three years. The value settled through this one retail system grew ' +
+      'far faster than national output. So payment activity per unit of output has clearly ' +
+      'gone up. This is what the Cambridge version predicts. As paying gets cheaper, people ' +
+      'hold less money against a given amount of spending, so turnover rises.',
   },
   {
     t: 'p',
-    text: 'Two cautions are needed. First, part of the rise is simply cash payments moving onto ' +
-      'UPI. That raises measured turnover without any change in behaviour, because cash ' +
+    text: 'Two cautions are needed. First, part of the rise is just cash payments moving onto ' +
+      'UPI. That raises the measured figure without any change in behaviour, because cash ' +
       'payments were never counted in the first place. Second, as Section 3.4.4 explained, ' +
-      'rising velocity is only a good sign when it comes from cheaper transactions rather ' +
-      'than from people fleeing money. Here the cause is clearly the first. India had no ' +
-      'monetary crisis in this period, and the rise matches the documented fall in the cost ' +
-      'and difficulty of paying.',
+      'rising velocity is only a good sign when it comes from cheaper payments rather than ' +
+      'people running away from money. Here the cause is clearly the first one. India had ' +
+      'no monetary crisis in this period, and the rise matches the fall in the cost and ' +
+      'difficulty of paying.',
   },
   {
     t: 'h4',
@@ -370,17 +366,16 @@ const CH4_ANALYSIS = [
   },
   {
     t: 'p',
-    text: 'Hypothesis H1 is supported, with one qualification. What has been shown is a rise in ' +
-      'measured transactions turnover, not in income velocity. Part of that rise is cash ' +
-      'payments becoming visible for the first time rather than new activity. Both effects ' +
-      'are real and both matter, but they are not the same thing, and the published data ' +
-      'cannot separate them. This is the honest limit of what a study based on national ' +
-      'figures can establish.',
+    text: 'H1 is supported, with one qualification. What I have shown is a rise in measured ' +
+      'transactions turnover, not in income velocity. Part of that rise is cash payments ' +
+      'becoming visible for the first time, rather than new activity. Both effects are real ' +
+      'and both matter, but they are not the same thing. The published data cannot separate ' +
+      'them. This is the honest limit of what a study based on national figures can show.',
   },
   {
     t: 'keypoint',
-    text: 'The value settled over UPI rose from 0.52 to 0.91 times India\'s GDP in three years — ' +
-      'the level of that ratio is not meaningful, but its rapid rise is, and it points to a ' +
+    text: 'The value settled over UPI rose from 0.52 to 0.91 times India\'s GDP in three years. ' +
+      'The level of that ratio is not meaningful, but its fast rise is, and it points to a ' +
       'higher transactions velocity of money.',
   },
   {
@@ -413,9 +408,9 @@ const CH4_ANALYSIS = [
   {
     t: 'p',
     text: 'On 9 November 2016, ₹500 and ₹1,000 notes stopped being legal tender. They were ' +
-      'worth ₹15.4 trillion, which was 86.9 per cent of the value of all notes then in ' +
-      'circulation [23]. Monthly digital transactions rose from 71.27 crore in October 2016 ' +
-      'to 111.45 crore by May 2017, an increase of 56 per cent [24].',
+      'worth ₹15.4 trillion. That was 86.9 per cent of the value of all notes then in ' +
+      'circulation [23]. Monthly digital payments rose from 71.27 crore in October 2016 to ' +
+      '111.45 crore by May 2017. That is a rise of 56 per cent [24].',
   },
   {
     t: 'h4',
@@ -423,25 +418,25 @@ const CH4_ANALYSIS = [
   },
   {
     t: 'p',
-    text: 'Demonetisation worked like an unusually severe natural experiment. The main way ' +
-      'people paid was withdrawn almost overnight, and an alternative had been launched ' +
-      'only weeks before. The 56 per cent rise in digital transactions over seven months is ' +
-      'how people responded.',
+    text: 'Demonetisation worked like a very severe natural experiment. The main way people ' +
+      'paid was taken away almost overnight, and an alternative had launched only weeks ' +
+      'before. The 56 per cent rise in digital payments over seven months is how people ' +
+      'reacted.',
   },
   {
     t: 'p',
-    text: 'That response should not be overstated. About 98.96 per cent of the withdrawn notes ' +
-      'came back to the banking system [23]. This means the currency was replaced rather ' +
-      'than permanently removed, and cash use recovered a great deal in the years that ' +
-      'followed. Demonetisation did not by itself turn India into a digital economy.',
+    text: 'That reaction should not be overstated. About 98.96 per cent of the withdrawn notes ' +
+      'came back to the banking system [23]. So the currency was replaced rather than ' +
+      'removed for good, and cash use recovered a lot in the years that followed. ' +
+      'Demonetisation did not by itself turn India into a digital economy.',
   },
   {
     t: 'p',
     text: 'What it did achieve is better described as a forced trial. Many people who would not ' +
       'otherwise have installed a payment app did so because they had to. Many shopkeepers ' +
       'who would not otherwise have accepted digital payment learned how. Some of that ' +
-      'behaviour stayed once the pressure was removed. The lasting effect was on ' +
-      'familiarity and infrastructure rather than on how people actually paid.',
+      'behaviour stayed once the pressure was gone. So the lasting effect was on ' +
+      'familiarity and infrastructure, rather than on how people actually paid.',
   },
   {
     t: 'h4',
@@ -449,17 +444,16 @@ const CH4_ANALYSIS = [
   },
   {
     t: 'p',
-    text: 'Demonetisation speeded up UPI\'s adoption at an early and important moment, but it ' +
-      'did not cause the growth that followed. That growth continued for years after cash ' +
-      'supply returned to normal, and at rates far above anything seen in 2016-17. The ' +
-      'episode is better understood as removing a barrier, which was the effort of learning ' +
-      'something new, rather than changing the economics of paying.',
+    text: 'Demonetisation speeded up UPI\'s growth at an early and important moment. But it did ' +
+      'not cause the growth that followed. That growth carried on for years after cash ' +
+      'supply returned to normal, and at rates far above anything seen in 2016-17. So the ' +
+      'event is better understood as removing a barrier, which was the effort of learning ' +
+      'something new. It did not change the economics of paying.',
   },
   {
     t: 'keypoint',
-    text: 'Demonetisation produced a 56 per cent jump in digital payments, but about 99 per ' +
-      'cent of the currency came back, so it accelerated UPI\'s adoption without causing its ' +
-      'sustained growth.',
+    text: 'Demonetisation produced a 56 per cent jump in digital payments. But about 99 per ' +
+      'cent of the currency came back, so it speeded up UPI\'s growth without causing it.',
   },
   {
     t: 'h2',
@@ -490,7 +484,7 @@ const CH4_ANALYSIS = [
   {
     t: 'p',
     text: 'This table separates out the pandemic years. UPI volume grew 78 per cent in FY ' +
-      '2020-21, the year of the strictest restrictions, and then 106 per cent in FY ' +
+      '2020-21, the year of the strictest restrictions. It then grew 106 per cent in FY ' +
       '2021-22, which is a higher rate than the year before. Volume more than tripled ' +
       'between FY 2019-20 and FY 2021-22.',
   },
@@ -500,30 +494,30 @@ const CH4_ANALYSIS = [
   },
   {
     t: 'p',
-    text: 'The pattern looks surprising at first. India\'s real output shrank in FY 2020-21, and ' +
-      'you would expect a payment system to shrink along with the economy it serves. ' +
-      'Instead UPI volume grew 78 per cent. Two forces explain this.',
+    text: 'The pattern looks surprising at first. India\'s real output shrank in FY 2020-21. You ' +
+      'would expect a payment system to shrink along with the economy it serves. Instead ' +
+      'UPI volume grew 78 per cent. Two forces explain this.',
   },
   {
     t: 'p',
-    text: 'The first is substitution. With movement restricted and physical contact ' +
-      'discouraged, payments that would have been made in cash were made digitally instead. ' +
-      'This moves payments between methods without increasing how many there are.',
+    text: 'The first is substitution. With movement restricted and contact discouraged, ' +
+      'payments that would have been made in cash were made digitally instead. This moves ' +
+      'payments between methods. It does not increase how many there are.',
   },
   {
     t: 'p',
-    text: 'The second is adoption, and it matters more. Shopkeepers who had refused digital ' +
+    text: 'The second is new users, and this matters more. Shopkeepers who had refused digital ' +
       'payment accepted it because customers insisted. Customers who had avoided it learned ' +
       'because there was no other option. This permanently widened the number of people who ' +
       'could use the system.',
   },
   {
     t: 'p',
-    text: 'The proof that adoption mattered more than substitution lies in what happened next. ' +
-      'If the pandemic rise had been pure substitution, growth would have reversed once ' +
-      'normal trade resumed. Instead FY 2021-22 grew faster than FY 2020-21, and growth ' +
-      'continued at 82 per cent and 57 per cent in the two following years, from a much ' +
-      'larger base. The change did not unwind.',
+    text: 'The proof that new users mattered more lies in what happened next. If the pandemic ' +
+      'rise had been pure substitution, growth would have reversed once normal trade came ' +
+      'back. Instead FY 2021-22 grew faster than FY 2020-21. Growth then carried on at 82 ' +
+      'per cent and 57 per cent in the next two years, from a much bigger base. The change ' +
+      'did not unwind.',
   },
   {
     t: 'h4',
@@ -531,16 +525,16 @@ const CH4_ANALYSIS = [
   },
   {
     t: 'p',
-    text: 'COVID-19 acted as a second shock, and a more lasting one than demonetisation. The ' +
+    text: 'COVID-19 was a second shock, and a more lasting one than demonetisation. The ' +
       'contrast between the two is useful. Demonetisation removed the alternative for a few ' +
-      'months, and adoption partly reversed afterwards. The pandemic lasted long enough for ' +
-      'digital payment to become a habit. Habits, unlike forced compliance, survive the ' +
-      'removal of the pressure that created them.',
+      'months, and the change partly reversed afterwards. The pandemic lasted long enough ' +
+      'for digital payment to become a habit. Habits, unlike forced behaviour, survive once ' +
+      'the pressure is removed.',
   },
   {
     t: 'keypoint',
     text: 'UPI grew faster after the pandemic (106 per cent) than during its worst year (78 per ' +
-      'cent), which shows the change had become a habit rather than reverting once cash was ' +
+      'cent). That shows the change had become a habit, instead of reversing once cash was ' +
       'available again.',
   },
   {
@@ -579,11 +573,11 @@ const CH4_ANALYSIS = [
   },
   {
     t: 'p',
-    text: 'This data set brings together the main indicators of financial inclusion and ' +
-      'digitalisation. Both RBI indices rose over their latest measurement periods, and the ' +
-      'Financial Inclusion Index improved in all three of its parts: access, usage and ' +
-      'quality [7]. The last row records that India handled about 49 per cent of all ' +
-      'real-time payment transactions in the world in 2024 [3].',
+    text: 'This data set brings together the main signs of financial inclusion and ' +
+      'digitalisation. Both RBI indices rose over their latest periods. The Financial ' +
+      'Inclusion Index improved in all three of its parts: access, usage and quality [7]. ' +
+      'The last row shows that India handled about 49 per cent of all real-time payments in ' +
+      'the world in 2024 [3].',
   },
   {
     t: 'h4',
@@ -593,26 +587,26 @@ const CH4_ANALYSIS = [
     t: 'p',
     text: 'The rise in the usage part matters more than the headline number. Access had already ' +
       'been largely achieved through the Jan Dhan scheme. The real problem was accounts ' +
-      'lying unused, and the World Bank records that the share of Indian women with ' +
-      'inactive accounts fell from a third in 2021 to 18 per cent by 2024 [21]. A payment ' +
-      'system that a small vendor will accept is what turns an account from a registration ' +
-      'into something useful.',
+      'lying unused. The World Bank records that the share of Indian women with inactive ' +
+      'accounts fell from a third in 2021 to 18 per cent by 2024 [21]. A payment system ' +
+      'that a small vendor will accept is what turns an account from a registration into ' +
+      'something useful.',
   },
   {
     t: 'p',
     text: 'The international comparison needs to be kept in proportion. India\'s 49 per cent ' +
-      'share of world real-time payments partly reflects its population, and a share of ' +
-      'volume says nothing about quality. What makes it notable is the policy difference ' +
-      'the BIS points out. Most fast payment systems abroad charge shopkeepers, and India\'s ' +
-      'does not [20]. India chose to treat retail payment as a public service, and the ' +
-      'adoption pattern is partly a result of that choice.',
+      'share of world real-time payments partly reflects our population. A share of volume ' +
+      'also says nothing about quality. What makes it notable is the policy difference the ' +
+      'BIS points out. Most fast payment systems abroad charge shopkeepers, and India\'s ' +
+      'does not [20]. India chose to treat retail payment as a public service, and this ' +
+      'growth is partly a result of that choice.',
   },
   {
     t: 'p',
-    text: 'The closeness of 55.98 crore Jan Dhan accounts and 55.49 crore UPI users is worth ' +
-      'noticing. These are different groups measured on different dates, so they cannot ' +
+    text: 'It is worth noticing how close 55.98 crore Jan Dhan accounts and 55.49 crore UPI ' +
+      'users are. These are different groups measured on different dates, so they cannot ' +
       'simply be set against each other. But their similar size suggests that owning an ' +
-      'account and being able to pay digitally now reach a comparable share of adults.',
+      'account and being able to pay digitally now reach a similar share of adults.',
   },
   {
     t: 'h4',
@@ -621,15 +615,15 @@ const CH4_ANALYSIS = [
   {
     t: 'p',
     text: 'The gains in financial inclusion are real and can be measured. The chain running ' +
-      'from accounts, through usage, to activity being recorded is visible in the indices ' +
-      'rather than just claimed. India\'s international standing rests on a deliberate ' +
-      'decision about pricing, not on size alone.',
+      'from accounts, to usage, to activity being recorded is visible in the indices rather ' +
+      'than just claimed. India\'s international position rests on a deliberate choice about ' +
+      'pricing, not on size alone.',
   },
   {
     t: 'keypoint',
-    text: 'The RBI\'s Financial Inclusion Index rose from 64.2 to 67.0 with usage improving ' +
-      'fastest — the sub-index that matters, because access had already been achieved and ' +
-      'dormancy was the real problem.',
+    text: 'The RBI\'s Financial Inclusion Index rose from 64.2 to 67.0, with usage improving ' +
+      'fastest. That is the part that matters, because access had already been achieved and ' +
+      'unused accounts were the real problem.',
   },
   {
     t: 'h2',
@@ -661,10 +655,10 @@ const CH4_ANALYSIS = [
   },
   {
     t: 'p',
-    text: 'UPI needs a connected device, so internet access sets the limit on how inclusive it ' +
-      'can be. India had 999.81 million broadband subscribers on 31 October 2025 [22]. In ' +
-      'urban areas there were 113.83 internet subscribers per 100 people. In rural areas ' +
-      'there were 46.73, which is a ratio of roughly 2.4 to 1.',
+    text: 'UPI needs a connected device. So internet access sets the limit on how inclusive it ' +
+      'can be. India had 999.81 million broadband subscribers on 31 October 2025 [22]. ' +
+      'Urban areas had 113.83 internet subscribers per 100 people. Rural areas had 46.73. ' +
+      'That is a ratio of roughly 2.4 to 1.',
   },
   {
     t: 'h4',
@@ -673,25 +667,25 @@ const CH4_ANALYSIS = [
   {
     t: 'p',
     text: 'The urban figure is above 100 per 100 people because it counts subscriptions, not ' +
-      'people, and many urban users have more than one. This is a reminder to read the ' +
-      'rural figure as an upper limit. If some rural users also hold more than one ' +
-      'subscription, then fewer than 46.73 per cent of rural people are actually online.',
+      'people. Many urban users have more than one. This is a reminder to read the rural ' +
+      'figure as an upper limit. If some rural users also have more than one subscription, ' +
+      'then fewer than 46.73 per cent of rural people are actually online.',
   },
   {
     t: 'p',
-    text: 'In absolute numbers the gap is smaller than the penetration figures suggest: 579.46 ' +
-      'million urban subscribers against 423.39 million rural ones. That is because rural ' +
-      'India has more people. The two panels of Figure 9 therefore tell different halves of ' +
-      'the same story. Rural India is a large and growing market in total, but a much ' +
-      'smaller share of rural people is reached.',
+    text: 'In absolute numbers the gap is smaller than the penetration figures suggest. There ' +
+      'are 579.46 million urban subscribers against 423.39 million rural ones. That is ' +
+      'because rural India has more people. So the two panels of Figure 9 tell different ' +
+      'halves of the same story. Rural India is a large and growing market in total, but a ' +
+      'much smaller share of rural people is reached.',
   },
   {
     t: 'p',
     text: 'This is a limit of connectivity, not of acceptance. The Payments Infrastructure ' +
       'Development Fund has set up about 5.45 crore digital payment points in tier-3 to ' +
-      'tier-6 centres [14], so the problem is not that rural shops lack QR codes. The ' +
-      'problem is that a large share of rural people cannot reliably reach the network ' +
-      'those codes depend on.',
+      'tier-6 centres [14]. So the problem is not that rural shops lack QR codes. The ' +
+      'problem is that many rural people cannot reliably reach the network those codes ' +
+      'need.',
   },
   {
     t: 'h4',
@@ -699,16 +693,16 @@ const CH4_ANALYSIS = [
   },
   {
     t: 'p',
-    text: 'Hypothesis H3 is supported. The benefits of UPI described throughout this chapter ' +
-      'are shared unequally, and the inequality is built into the infrastructure rather ' +
-      'than being a matter of choice. It follows the spread of connectivity. So any policy ' +
-      'meant to extend the gains of digital payment further into rural India has to deal ' +
-      'with the telecom problem, because payment measures alone cannot solve it.',
+    text: 'H3 is supported. The benefits of UPI described in this chapter are shared unevenly. ' +
+      'The unevenness is built into the infrastructure rather than being a matter of ' +
+      'choice, because it follows the spread of connectivity. So any policy meant to take ' +
+      'digital payment further into rural India has to deal with the telecom problem. ' +
+      'Payment measures alone cannot solve it.',
   },
   {
     t: 'keypoint',
-    text: 'Rural internet penetration is 46.73 per 100 people against an urban 113.83, so what ' +
-      'limits UPI\'s reach in rural India is connectivity, not merchant acceptance.',
+    text: 'Rural internet reaches 46.73 per 100 people against 113.83 in urban areas. So what ' +
+      'limits UPI in rural India is connectivity, not whether shops will accept it.',
   },
   {
     t: 'pb',

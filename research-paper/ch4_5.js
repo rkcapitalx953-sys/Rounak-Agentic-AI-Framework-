@@ -13,8 +13,8 @@ const CH4_5 = [
   },
   {
     t: 'p',
-    text: 'Seven findings come out of the analysis in Chapter 4. Each one is given with the ' +
-      'evidence behind it and with the qualification that evidence requires.',
+    text: 'Seven findings come out of the analysis in Chapter 4. I give each one with the ' +
+      'evidence behind it, and with the qualification that evidence needs.',
   },
   {
     t: 'p',
@@ -23,23 +23,23 @@ const CH4_5 = [
   },
   {
     t: 'p',
-    text: 'Volume rose from 2 crore transactions in FY 2016-17 to 24,162 crore in FY 2025-26. ' +
-      'UPI made up 81 per cent of retail digital payment transactions in FY 2024-25 [2], ' +
-      '[14]. Growth happened in every year of the period, and the actual increase each year ' +
-      'keeps rising even as the percentage growth slows.',
+    text: 'Volume rose from 2 crore payments in FY 2016-17 to 24,162 crore in FY 2025-26. UPI ' +
+      'made up 81 per cent of retail digital payments in FY 2024-25 [2], [14]. Growth ' +
+      'happened in every single year. The actual rise each year keeps getting bigger, even ' +
+      'though the percentage growth is slowing.',
   },
   {
     t: 'p',
     bold: true,
-    text: 'Finding 2.  The growth is made up of small payments, and increasingly so.',
+    text: 'Finding 2.  The growth is made up of small payments, more and more so.',
   },
   {
     t: 'p',
-    text: 'The average value of a UPI payment fell from ₹1,838 in FY 2020-21 to ₹1,300 in FY ' +
-      '2025-26, a fall of about 29 per cent. Over the same years volume rose more than ten ' +
-      'times (Data Set 2). Person-to-merchant payments are now 63 per cent of volume, and ' +
-      '86 per cent of those are below ₹500 [2]. Since prices rose over the period, the ' +
-      'shift towards small payments is even larger in real terms than the figures show.',
+    text: 'The average UPI payment fell from ₹1,838 in FY 2020-21 to ₹1,300 in FY 2025-26. That ' +
+      'is a fall of about 29 per cent. Over the same years volume rose more than ten times ' +
+      '(Data Set 2). Person-to-merchant payments are now 63 per cent of volume, and 86 per ' +
+      'cent of those are below ₹500 [2]. Prices rose over this period, so the shift towards ' +
+      'small payments is even bigger in real terms than the figures show.',
   },
   {
     t: 'p',
@@ -49,37 +49,37 @@ const CH4_5 = [
   {
     t: 'p',
     text: 'UPI value as a multiple of nominal GDP rose from 0.52 in FY 2022-23 to 0.91 in FY ' +
-      '2025-26 (Data Set 4). This fits the Cambridge prediction that when paying becomes ' +
-      'cheaper, people hold less money against a given amount of spending. It is a ' +
-      'transactions measure, not income velocity. Part of the rise is cash payments ' +
-      'becoming visible for the first time, and the available data cannot separate the two.',
+      '2025-26 (Data Set 4). This fits the Cambridge prediction. When paying gets cheaper, ' +
+      'people hold less money against a given amount of spending. But it is a transactions ' +
+      'measure, not income velocity. Part of the rise is cash payments becoming visible for ' +
+      'the first time, and the data cannot separate the two.',
   },
   {
     t: 'p',
     bold: true,
-    text: 'Finding 4.  Both shocks speeded up adoption, but only one produced a lasting change.',
+    text: 'Finding 4.  Both shocks speeded up growth, but only one lasted.',
   },
   {
     t: 'p',
-    text: 'Digital transactions rose 56 per cent in the seven months after demonetisation [24]. ' +
-      'But about 98.96 per cent of the withdrawn currency came back to the banking system ' +
-      '[23], and cash use recovered a great deal. The pandemic produced 78 per cent growth ' +
-      'in FY 2020-21 and then 106 per cent in FY 2021-22, which is faster after the shock ' +
-      'than during it. Growth continued at 82 and 57 per cent in the next two years (Data ' +
-      'Set 6). The difference seems to be how long each lasted. The pandemic went on long ' +
-      'enough for digital payment to become a habit.',
+    text: 'Digital payments rose 56 per cent in the seven months after demonetisation [24]. But ' +
+      'about 98.96 per cent of the withdrawn currency came back to the banks [23], and cash ' +
+      'use recovered a lot. The pandemic produced 78 per cent growth in FY 2020-21 and then ' +
+      '106 per cent in FY 2021-22. That is faster after the shock than during it. Growth ' +
+      'then carried on at 82 and 57 per cent in the next two years (Data Set 6). The ' +
+      'difference seems to be how long each one lasted. The pandemic went on long enough ' +
+      'for digital payment to become a habit.',
   },
   {
     t: 'p',
     bold: true,
-    text: 'Finding 5.  UPI has helped financial inclusion in ways that can be measured.',
+    text: 'Finding 5.  UPI has helped financial inclusion in ways we can measure.',
   },
   {
     t: 'p',
     text: 'The RBI Financial Inclusion Index rose from 64.2 to 67.0 between March 2024 and ' +
-      'March 2025, improving in access, usage and quality [7]. The gain in usage matters ' +
+      'March 2025. Access, usage and quality all improved [7]. The gain in usage matters ' +
       'most, because access had already been largely achieved. The share of Indian women ' +
-      'holding inactive accounts fell from a third in 2021 to 18 per cent by 2024 [21].',
+      'with inactive accounts fell from a third in 2021 to 18 per cent by 2024 [21].',
   },
   {
     t: 'p',
@@ -90,13 +90,13 @@ const CH4_5 = [
   {
     t: 'p',
     text: 'Of the small shopkeepers surveyed for the Department of Financial Services, 94 per ' +
-      'cent had adopted UPI and 57 per cent said their sales had risen afterwards [15]. ' +
-      'These are reported figures that cannot be audited, and a shopkeeper may credit a ' +
-      'payment method for a gain that had another cause. Even so, it is the most direct ' +
-      'evidence available that the effect reaches output and not just the way payments are ' +
-      'made. Research from other countries points the same way. The BIS finds that ' +
-      'launching a fast payment system increases the use of digital finance, most strongly ' +
-      'in lower-income countries [20].',
+      'cent had adopted UPI. Of those, 57 per cent said their sales had risen afterwards ' +
+      '[15]. These are reported figures that cannot be audited, and a shopkeeper may credit ' +
+      'a payment method for a gain that had another cause. Even so, it is the most direct ' +
+      'evidence we have that the effect reaches output, and not just the way people pay. ' +
+      'Research from other countries points the same way. The BIS finds that launching a ' +
+      'fast payment system increases the use of digital finance, most of all in ' +
+      'lower-income countries [20].',
   },
   {
     t: 'p',
@@ -105,12 +105,12 @@ const CH4_5 = [
   },
   {
     t: 'p',
-    text: 'In August 2025 rural areas had 46.73 internet subscribers per 100 people against ' +
+    text: 'In August 2025 rural areas had 46.73 internet subscribers per 100 people, against ' +
       '113.83 in urban areas [22]. That sets a ceiling on how inclusive a system needing a ' +
       'network can be. Cybersecurity incidents rose from 10.29 lakh in 2022 to 22.68 lakh ' +
       'in 2024 [28]. And about 75 per cent of users in one survey said they spent more ' +
       'because digital money felt less real [25]. The same ease that raises velocity also ' +
-      'removes a restraint that cash used to provide by accident.',
+      'removes a restraint that cash used to give by accident.',
   },
   {
     t: 'h2',
@@ -118,39 +118,40 @@ const CH4_5 = [
   },
   {
     t: 'p',
-    text: 'Six suggestions follow from these findings. Each one addresses a problem the ' +
+    text: 'Six suggestions follow from these findings. Each one deals with a problem the ' +
       'evidence actually shows, rather than a general wish.',
   },
   {
     t: 'numbers',
     items: [
       'Treat rural connectivity as payments policy. Data Set 8 shows that what limits rural ' +
-      'digital payment is network access, not shop acceptance. About 5.45 crore payment ' +
-      'points have been set up in tier-3 to tier-6 centres [14], yet fewer than half of ' +
-      'rural people are connected. Extending broadband would therefore do more good now ' +
-      'than paying for more acceptance infrastructure.',
+      'digital payment is network access, not whether shops will accept it. About 5.45 ' +
+      'crore payment points have been set up in tier-3 to tier-6 centres [14]. Yet fewer ' +
+      'than half of rural people are connected. So spreading broadband would do more good ' +
+      'now than paying for still more acceptance infrastructure.',
       'Spend on fraud awareness on the same scale as the system itself. UPI\'s technical ' +
-      'defences are strong: the app is tied to one device, a PIN is required, and machine ' +
+      'defences are strong. The app is tied to one device, a PIN is needed, and machine ' +
       'learning watches for suspicious payments [28]. The weak point is the user\'s ' +
-      'judgement. Awareness campaigns should be treated as essential infrastructure and ' +
-      'delivered in regional languages, inside the payment apps, at the moment of paying.',
-      'Build spending-awareness features into payment apps. Since most surveyed users say ' +
-      'they spend more because digital money feels less real [25], apps could offer ' +
-      'optional monthly spending summaries and limits that users set for themselves. This ' +
-      'deals with a real cost without taking away anyone\'s choice.',
-      'Publish payment data broken down by region. The biggest limitation I faced was that ' +
-      'UPI data is not published by state or district, which made it impossible to study ' +
-      'regional differences. Releasing this data, with names removed, would allow research ' +
-      'that national totals cannot support.',
+      'judgement. So awareness campaigns should be treated as essential infrastructure. ' +
+      'They should be in regional languages, inside the payment apps, at the moment of ' +
+      'paying.',
+      'Build spending-awareness features into payment apps. Most surveyed users say they ' +
+      'spend more because digital money feels less real [25]. Apps could offer optional ' +
+      'monthly spending summaries, and limits that users set for themselves. This deals ' +
+      'with a real cost without taking away anyone\'s choice.',
+      'Publish payment data region by region. The biggest limit I faced was that UPI data ' +
+      'is not published by state or district. This made it impossible to study regional ' +
+      'differences. Releasing this data, with names removed, would allow research that ' +
+      'national totals cannot support.',
       'Reduce single points of failure. As cash disappears, a breakdown stops being an ' +
-      'inconvenience and starts stopping trade. Offline payment modes and modes that work ' +
-      'on basic phones deserve continued investment, specifically so the system can survive ' +
-      'failures and not only to include more people.',
+      'inconvenience and starts stopping trade. Offline payment modes, and modes that work ' +
+      'on basic phones, deserve more investment. They should be funded so the system can ' +
+      'survive failures, and not only to include more people.',
       'Review the incentive scheme openly. Free payment is paid for by the Government ' +
       'rather than by shopkeepers [14], [15]. Whether the gains in recorded activity, ' +
       'inclusion and tax collection are worth that spending is a question that can be ' +
-      'answered with evidence, and it should be reviewed publicly from time to time, ' +
-      'because the answer decides whether free payment can continue.',
+      'answered with evidence. It should be reviewed publicly from time to time, because ' +
+      'the answer decides whether free payment can continue.',
     ],
   },
   {
@@ -162,72 +163,71 @@ const CH4_5 = [
   },
   {
     t: 'p',
-    text: 'This project asked whether the growth of UPI has changed the speed at which money ' +
-      'circulates in India, and whether any effect on real economic activity can be found ' +
-      'in published data. The two questions deserve different answers.',
+    text: 'I set out to ask whether the growth of UPI has changed the speed at which money ' +
+      'moves around in India. I also asked whether any effect on real economic activity can ' +
+      'be found in published data. The two questions deserve different answers.',
   },
   {
     t: 'p',
-    text: 'On circulation, the evidence is strong. The value settled over UPI rose from roughly ' +
+    text: 'On circulation, the evidence is strong. The value settled over UPI rose from about ' +
       'half of nominal GDP in FY 2022-23 to about nine-tenths of it in FY 2025-26. Over the ' +
-      'decade the number of transactions rose thirteen times while the average payment ' +
-      'shrank by nearly a third. Read through Fisher\'s equation, that is a large rise in ' +
-      'the number of transactions supported by a given stock of money. Read through the ' +
-      'Cambridge version, it is a fall in the balance people need to hold against their ' +
-      'spending. Both readings describe a rise in the transactions velocity of money. The ' +
-      'qualification, stated plainly in Data Set 4, is that part of the measured rise is ' +
-      'cash payments moving into a system that counts them. Those payments were always ' +
-      'real; they were simply invisible before.',
+      'decade the number of payments rose thirteen times, while the average payment shrank ' +
+      'by nearly a third. Read through Fisher\'s equation, that is a big rise in the number ' +
+      'of transactions supported by a given stock of money. Read through the Cambridge ' +
+      'version, it is a fall in the balance people need to hold against their spending. ' +
+      'Both readings describe a rise in the transactions velocity of money. The ' +
+      'qualification, which I state plainly in Data Set 4, is that part of the measured ' +
+      'rise is cash payments moving into a system that counts them. Those payments were ' +
+      'always real. They were simply invisible before.',
   },
   {
     t: 'p',
-    text: 'On economic activity the evidence points in one direction but does not prove the ' +
-      'case, and this project does not claim more. That 57 per cent of small shopkeepers ' +
-      'report higher sales after adopting digital payment [15] is the most direct sign ' +
-      'available that the effect reaches output. The BIS finding that fast payment systems ' +
-      'raise digital finance use most in lower-income countries [20], and the IMF finding ' +
-      'of faster growth in districts where interoperability helped most [18], both point ' +
-      'the same way. None of this separates UPI\'s own effect from the simultaneous spread ' +
-      'of smartphones, internet access, bank accounts and higher incomes over the same ' +
-      'decade. A study based on published national figures cannot make that separation, and ' +
-      'it would be dishonest to pretend otherwise.',
+    text: 'On economic activity the evidence points one way but does not prove the case, and I ' +
+      'do not claim more than that. The fact that 57 per cent of small shopkeepers report ' +
+      'higher sales after taking up digital payment [15] is the most direct sign we have ' +
+      'that the effect reaches output. The BIS finding that fast payment systems raise ' +
+      'digital finance use most in lower-income countries [20], and the IMF finding of ' +
+      'faster growth in districts where interoperability helped most [18], both point the ' +
+      'same way. But none of this separates UPI\'s own effect from everything else that ' +
+      'happened in the same decade. Smartphones, internet access, bank accounts and incomes ' +
+      'all spread at the same time. A study based on published national figures cannot ' +
+      'separate them, and it would be dishonest to pretend otherwise.',
   },
   {
     t: 'p',
-    text: 'What can be said without qualification is that UPI has changed how India pays. It ' +
-      'did so by solving a problem cards and wallets never could, which was making the very ' +
+    text: 'What I can say without any qualification is that UPI has changed how India pays. It ' +
+      'did this by solving a problem that cards and wallets never could. It made the very ' +
       'small payment worth making. The average payment fell from ₹1,838 to ₹1,300 while ' +
-      'volume rose more than ten times, and it did so despite inflation pushing the other ' +
-      'way. That is the mark of a system reaching transactions it never served before. The ' +
-      'tea, the vegetables, the auto fare: these are the payments UPI added, and they are ' +
-      'why the national figures look the way they do.',
+      'volume rose more than ten times, and it did so even though inflation was pushing the ' +
+      'other way. That is the sign of a system reaching payments it never served before. ' +
+      'The tea, the vegetables, the auto fare: these are the payments UPI added, and they ' +
+      'are why the national figures look the way they do.',
   },
   {
     t: 'p',
-    text: 'The case for greater efficiency is therefore genuine. Money that does not have to be ' +
-      'withdrawn, carried and deposited again is money available for use. A shopkeeper paid ' +
-      'instantly can buy new stock sooner. A transaction that leaves a record can later ' +
-      'become the basis of a loan. These are real gains and they fit everything found in ' +
+    text: 'So the case for greater efficiency is genuine. Money that does not have to be ' +
+      'withdrawn, carried and deposited again is money free to be used. A shopkeeper paid ' +
+      'at once can buy new stock sooner. A payment that leaves a record can later become ' +
+      'the basis of a loan. These are real gains, and they fit everything I found in ' +
       'Chapter 4.',
   },
   {
     t: 'p',
-    text: 'Two problems remain, and neither is minor. The first is unequal access. With rural ' +
-      'internet reaching less than half the urban rate, a payment system that needs ' +
-      'connectivity cannot include more people than the network does, and the people left ' +
-      'out are those for whom inclusion would matter most. The second is security, where ' +
-      'the rise in cyber incidents tracks the growth of the system, and where the weak ' +
-      'point is the user rather than the technology.',
+    text: 'Two problems remain, and neither is small. The first is unequal access. Rural ' +
+      'internet reaches less than half the urban rate. A payment system that needs a ' +
+      'network cannot include more people than the network does, and the people left out ' +
+      'are those who would gain most. The second is security. The rise in cyber incidents ' +
+      'tracks the growth of the system, and the weak point is the user rather than the ' +
+      'technology.',
   },
   {
     t: 'p',
-    text: 'One last observation is worth making. India built this system as public ' +
-      'infrastructure and chose to make it free to use, paying the cost from government ' +
-      'funds rather than charging shopkeepers. Almost every similar system abroad chose the ' +
-      'opposite. The adoption described in this report is, in large part, a result of that ' +
-      'decision. That suggests the most important thing about UPI may not be its technology ' +
-      'at all, but the view of payment as a public service that the technology was built to ' +
-      'serve.',
+    text: 'One last point is worth making. India built this system as public infrastructure and ' +
+      'chose to make it free to use. The cost is paid from government funds rather than ' +
+      'charged to shopkeepers. Almost every similar system abroad chose the opposite. The ' +
+      'growth I have described is, in large part, a result of that decision. So the most ' +
+      'important thing about UPI may not be its technology at all. It may be the idea that ' +
+      'payment is a public service, which the technology was built to serve.',
   },
   {
     t: 'pb',
